@@ -1734,6 +1734,18 @@ background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25
 
 @media screen and (max-width: 992px) {
   
+  #bio_move {
+    display: none;
+  }
+  #penbox {
+    display: none;
+  }
+ #penbox2 {
+    display: none;
+  }
+  #pigeon {
+    display: none;
+  }
 
   .navbar {
     -webkit-box-pack:end;
@@ -1894,6 +1906,16 @@ background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25
     right: 69px;
     font-size: 60px;
 }
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
 
 }
 
@@ -1909,6 +1931,20 @@ background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25
 
 
 @media screen and (max-width: 576px) {
+    .resp_menu .nav-item {
+    width: 185px;
+    text-align: left;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
 
 .main_fluid .main_right_col .info_box {
     color: #fff;
@@ -2073,4 +2109,16 @@ background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25
 .owl-dots {
     display: none;
 }
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
+}
+
+
