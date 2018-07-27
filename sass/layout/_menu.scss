@@ -1867,7 +1867,8 @@ background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25
 
 /* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+    -webkit-box-shadow: inset 0 0 5px grey;
+            box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
 }
  
