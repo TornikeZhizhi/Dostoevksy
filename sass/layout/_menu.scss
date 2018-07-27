@@ -1304,6 +1304,59 @@ background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25
     }
 }
 
+.hamburger_menu {
+    font-size: 40px;
+    cursor: pointer;
+    width: 40px;
+    height: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-animation: haburger 1s infinite;
+            animation: haburger 1s infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate; 
+}
+
+@-webkit-keyframes haburger {
+    0%{
+        -webkit-transform:scale(1.2);
+                transform:scale(1.2);
+        opacity: .8;
+    }
+
+    100% {
+
+        -webkit-transform:scale(0.9);
+
+                transform:scale(0.9);
+        opacity: 1;
+    }
+}
+
+@keyframes haburger {
+    0%{
+        -webkit-transform:scale(1.2);
+                transform:scale(1.2);
+        opacity: .8;
+    }
+
+    100% {
+
+        -webkit-transform:scale(0.9);
+
+                transform:scale(0.9);
+        opacity: 1;
+    }
+}
+
 @-webkit-keyframes bounceInLeft {
   from,
   60%,
@@ -1805,6 +1858,25 @@ background: -webkit-linear-gradient(to left, #b29f94, #603813);  /* Chrome 10-25
         opacity: .7;
     }
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #806230; 
+    border-radius: 10px;
+}
+
 
 
 
