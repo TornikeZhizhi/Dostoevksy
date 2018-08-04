@@ -327,10 +327,10 @@ body {
     -ms-flex-align: center;
     align-items: center;
     background-repeat: no-repeat;
-    background-image: url(../images/31239362_1692655407495990_8811817060682351172_n.jpg);
+    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.1), rgba(87, 61, 38, 0.1)), url(../images/31239362_1692655407495990_8811817060682351172_n.jpg);
     background-size: 50% 100%;
     background-attachment: fixed;
-    height: 100%;
+    height: 100vh;
     position: relative;
     margin-top: 80px; }
     .main_fluid .main_right_col #particles-js {
@@ -1327,9 +1327,9 @@ body {
 
   .main_fluid .main_right_col {
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
-    height: 645px;
+    height: 100vh;
     position: relative;
     margin-top: 80px; }
 
@@ -1557,9 +1557,6 @@ body {
   .main_fluid .bio_info_col .bio_container {
     padding-right: 0px; } }
 @media screen and (max-width: 376px) {
-  .main_fluid .main_right_col {
-    height: 501px; }
-
   .main_fluid .main_right_col .info_box {
     color: #fff;
     width: 80%;
