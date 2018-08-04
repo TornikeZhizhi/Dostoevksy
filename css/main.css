@@ -1599,6 +1599,10 @@ body {
     display: inline-block;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s; } }
+    transition: 0.3s; }
+
+  .reviews_fluid .review_cont .reviews_box .review_text {
+    width: 75%;
+    padding: 0px 0px; } }
 
 /*# sourceMappingURL=main.css.map */
