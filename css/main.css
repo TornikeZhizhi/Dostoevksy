@@ -21,6 +21,13 @@ html, body {
 body {
   font-family: 'Crimson Text', serif; }
 
+audio {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1; }
+
 .header_fluid {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(87, 61, 38, 0.9)), to(rgba(87, 61, 38, 0.9))), url("../images/photo-1507842217343-583bb7270b66.jpg");
   background-image: -webkit-linear-gradient(left top, rgba(87, 61, 38, 0.9), rgba(87, 61, 38, 0.9)), url("../images/photo-1507842217343-583bb7270b66.jpg");
@@ -32,7 +39,8 @@ body {
   z-index: 100; }
 
 .main_fluid {
-  height: 100%; }
+  height: 100%;
+  padding-top: 80px; }
   .main_fluid .char_col .char_container {
     padding: 40px 110px;
     padding-bottom: 130px;
@@ -122,15 +130,16 @@ body {
           -webkit-transform: translateX(-50%);
           -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-          outline: none !important;
           margin-top: 35px; }
+          .main_fluid .char_col .char_container #demos .owl-carousel .owl-dots button {
+            outline: none; }
           .main_fluid .char_col .char_container #demos .owl-carousel .owl-dots span {
-            outline: none !important;
             width: 15px;
             height: 15px; }
         .main_fluid .char_col .char_container #demos .owl-carousel .item {
           width: 200px;
           height: 281px;
+          overflow: hidden;
           border-radius: 10px; }
           .main_fluid .char_col .char_container #demos .owl-carousel .item img {
             width: 100%;
@@ -141,21 +150,9 @@ body {
             border-radius: 10px;
             -webkit-transition: .3s;
             -o-transition: .3s;
-            transition: .3s;
-            -webkit-clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
-            clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%); }
+            transition: .3s; }
             .main_fluid .char_col .char_container #demos .owl-carousel .item img:hover {
-              -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-              clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%); }
-            .main_fluid .char_col .char_container #demos .owl-carousel .item img.cross {
-              -webkit-clip-path: polygon(0 25%, 0 0, 35% 0%, 65% 0%, 100% 0, 100% 25%, 100% 51%, 100% 100%, 65% 100%, 35% 100%, 0 100%, 0 50%);
-              clip-path: polygon(0 25%, 0 0, 35% 0%, 65% 0%, 100% 0, 100% 25%, 100% 51%, 100% 100%, 65% 100%, 35% 100%, 0 100%, 0 50%);
-              -webkit-transition: .6s;
-              -o-transition: .6s;
-              transition: .6s; }
-              .main_fluid .char_col .char_container #demos .owl-carousel .item img.cross:hover {
-                -webkit-clip-path: polygon(0 29%, 35% 29%, 35% 0%, 65% 0%, 65% 29%, 100% 29%, 100% 51%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 0 50%);
-                clip-path: polygon(0 29%, 35% 29%, 35% 0%, 65% 0%, 65% 29%, 100% 29%, 100% 51%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 0 50%); }
+              transform: scale(1.1); }
   .main_fluid .bio_coll {
     padding-left: 0px;
     padding-right: 0px; }
@@ -176,8 +173,7 @@ body {
           transition: .4s;
           cursor: pointer; }
           .main_fluid .bio_coll .bio_img_col .bio_img img:hover {
-            -webkit-clip-path: polygon(0 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 100% 25%, 100% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 0 50%);
-            clip-path: polygon(0 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 100% 25%, 100% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 0 50%); }
+            clip-path: polygon(0 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 100% 25%, 100% 43%, 65% 43%, 65% 100%, 35% 100%, 35% 43%, 0 43%); }
   .main_fluid .bio_info_col {
     padding: 70px 0;
     display: -webkit-box;
@@ -245,7 +241,7 @@ body {
         color: #000;
         margin-top: 30px; }
     .main_fluid .book_col .book_box_row {
-      padding-bottom: 70px; }
+      padding-bottom: 20px; }
       .main_fluid .book_col .book_box_row .book_box .book_image {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -263,15 +259,6 @@ body {
           -o-transition: .3s;
           transition: .3s;
           border-radius: 10px; }
-          .main_fluid .book_col .book_box_row .book_box .book_image img.idiot {
-            -webkit-clip-path: polygon(0 25%, 0 0, 35% 0%, 65% 0%, 100% 0, 100% 25%, 100% 51%, 100% 100%, 65% 100%, 35% 100%, 0 100%, 0 50%);
-            clip-path: polygon(0 25%, 0 0, 35% 0%, 65% 0%, 100% 0, 100% 25%, 100% 51%, 100% 100%, 65% 100%, 35% 100%, 0 100%, 0 50%);
-            -webkit-transition: .3s;
-            -o-transition: .3s;
-            transition: .3s; }
-            .main_fluid .book_col .book_box_row .book_box .book_image img.idiot:hover {
-              -webkit-clip-path: polygon(0 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 100% 25%, 100% 51%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 0 50%);
-              clip-path: polygon(0 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 100% 25%, 100% 51%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 0 50%); }
           .main_fluid .book_col .book_box_row .book_box .book_image img:hover {
             -webkit-transform: scale(1.1, 1.1);
             -ms-transform: scale(1.1, 1.1);
@@ -290,7 +277,13 @@ body {
           cursor: pointer; }
         .main_fluid .book_col .book_box_row .book_box .book_infos p {
           color: #fff;
-          font-style: italic; }
+          font-style: italic;
+          overflow-y: scroll;
+          height: 120px;
+          padding-right: 10px;
+          word-break: break-word; }
+          .main_fluid .book_col .book_box_row .book_box .book_infos p::-webkit-scrollbar {
+            width: 1px; }
         .main_fluid .book_col .book_box_row .book_box .book_infos a {
           display: inline-block;
           color: #ebc076;
@@ -331,8 +324,7 @@ body {
     background-size: 50% 100%;
     background-attachment: fixed;
     height: 100vh;
-    position: relative;
-    margin-top: 80px; }
+    position: relative; }
     .main_fluid .main_right_col #particles-js {
       position: absolute;
       width: 100%;
@@ -349,17 +341,6 @@ body {
         line-height: 57px;
         position: relative;
         USER-SELECT: none; }
-        .main_fluid .main_right_col .info_box h2:after {
-          content: "";
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 4px;
-          background-color: #ebc076;
-          position: absolute;
-          top: 50%;
-          border-radius: 10px;
-          left: 1px; }
       .main_fluid .main_right_col .info_box p {
         font-size: 25px;
         margin: 30px 0px;
@@ -466,8 +447,8 @@ body {
               -webkit-box-align: center;
               -ms-flex-align: center;
               align-items: center;
-              width: 30px;
-              height: 30px; }
+              font-size: 14px;
+              padding-right: 5px; }
             .main_fluid .menu_col nav ul li a .far {
               display: -webkit-box;
               display: -ms-flexbox;
@@ -478,8 +459,8 @@ body {
               -webkit-box-align: center;
               -ms-flex-align: center;
               align-items: center;
-              width: 40px;
-              height: 40px; }
+              font-size: 14px;
+              padding-right: 5px; }
 
 .btn-6 {
   display: inline-block;
@@ -618,14 +599,9 @@ body {
 .fraz_fluid {
   padding: 50px 73px;
   padding-bottom: 25px;
-  background: #603813;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #b29f94, #603813);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, right top, left top, from(#825942), to(#603813));
-  background: -webkit-linear-gradient(right, #825942, #603813);
-  background: -o-linear-gradient(right, #825942, #603813);
-  background: linear-gradient(to left, #825942, #603813); }
+  background-image: linear-gradient(rgba(87, 61, 38, 0.35), rgba(87, 61, 38, 0.35)), url(../images/old_paper2.jpeg);
+  background-position: center;
+  background-size: cover; }
   .fraz_fluid h5 {
     font-size: 42px;
     color: #000;
@@ -641,11 +617,6 @@ body {
     border-radius: 15px;
     padding: 0px 20px;
     display: inline-block; }
-    .fraz_fluid h5:hover {
-      border: 6px solid #000;
-      -webkit-transition: .2s;
-      -o-transition: .2s;
-      transition: .2s; }
   .fraz_fluid p {
     font-size: 36px;
     color: #000; }
@@ -664,6 +635,9 @@ body {
 .n3_box {
   padding-left: 0px;
   padding-right: 0px; }
+
+.book_box_row .col-lg-3 {
+  margin-bottom: 50px; }
 
 .reviews_fluid h2 {
   margin: 30px 0;
@@ -1083,22 +1057,6 @@ body {
 
 #section2 {
   position: relative; }
-  #section2 #penbox2 {
-    position: absolute;
-    left: 10%;
-    top: 8%;
-    width: 100px;
-    cursor: pointer;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s; }
-    #section2 #penbox2:hover {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      opacity: .8; }
-    #section2 #penbox2 img {
-      width: 100%; }
   #section2 #penbox {
     position: absolute;
     right: 10%;
@@ -1273,7 +1231,7 @@ body {
     opacity: .7; } }
 /* width */
 ::-webkit-scrollbar {
-  width: 20px; }
+  width: 8px; }
 
 /* Track */
 ::-webkit-scrollbar-track {

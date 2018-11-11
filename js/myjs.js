@@ -258,6 +258,11 @@ function check_if_in_view5() {
 
 // resp menu 
 
+
+
+$(document).ready(function(){
+
+
 function openNav() {
     document.getElementById("myNav").style.height = "100%";
 }
@@ -274,16 +279,16 @@ var nav_item = document.getElementsByClassName("nav-item");
 function hideNav(){
 
 for (var i = 0; i < nav_item.length; i++) {
-	nav_item[i].addEventListener("click",function(){
-		document.getElementById("myNav").style.height = "0%";
-	})
+  nav_item[i].addEventListener("click",function(){
+    document.getElementById("myNav").style.height = "0%";
+  })
 }
 }
 hideNav()
 
 
 
-// mousemove
+mousemove
 
 function mousemove(){
 
@@ -304,41 +309,28 @@ document.getElementById("pigeon").style.left = 15+y + "%";
 
 mousemove()
 
-
-function mousemove2(){
-
-
-window.addEventListener("mousemove",function(event){
-var x = (event.clientX / window.innerWidth *100)/25;
-var y = (event.clientY / window.innerWidth *100)/10;
-
-document.getElementById("penbox2").style.top = 5+ x + "%";
-document.getElementById("penbox2").style.left = 2+y + "%";
-
+  
 })
 
-}
-
-mousemove2()
 
 
 
 
-function mousemove3(){
+// function mousemove3(){
 
 
-window.addEventListener("mousemove",function(event){
-var x = (event.clientX / window.innerWidth *100)/25;
-var y = (event.clientY / window.innerWidth *100)/10;
+// window.addEventListener("mousemove",function(event){
+// var x = (event.clientX / window.innerWidth *100)/25;
+// var y = (event.clientY / window.innerWidth *100)/10;
 
-document.getElementById("bio_move").style.top = 5+ x + "%";
-document.getElementById("bio_move").style.left = 2+y + "%";
+// document.getElementById("bio_move").style.top = 5+ x + "%";
+// document.getElementById("bio_move").style.left = 2+y + "%";
 
-})
+// })
 
-}
+// }
 
-mousemove3()
+// mousemove3()
 
 
 
