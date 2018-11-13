@@ -1,0 +1,27 @@
+
+
+.book_nd_fluid {
+
+    background-image: url("../images/background_book.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+
+.book_nd_main_content {
+	max-width: 1200px;
+	width: 80%;
+	background-image: url("../images/paper.jpg");
+	height: 100%; box-shadow: inset 0px 0px 50px 0px rgba(158,106,15,0.85); 
+	background-position: center center;
+	margin:0 auto;
+    border-radius: 5px;
+
+	
+}
+
+
+.book_nd_tittle {
+
+     text-align: center;
+}
