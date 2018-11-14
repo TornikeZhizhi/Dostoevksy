@@ -316,21 +316,21 @@ mousemove()
 
 
 
-// function mousemove3(){
+function mousemove3(){
 
 
-// window.addEventListener("mousemove",function(event){
-// var x = (event.clientX / window.innerWidth *100)/25;
-// var y = (event.clientY / window.innerWidth *100)/10;
+window.addEventListener("mousemove",function(event){
+var x = (event.clientX / window.innerWidth *100)/25;
+var y = (event.clientY / window.innerWidth *100)/10;
 
-// document.getElementById("bio_move").style.top = 5+ x + "%";
-// document.getElementById("bio_move").style.left = 2+y + "%";
+document.getElementById("bio_move").style.top = 5+ x + "%";
+document.getElementById("bio_move").style.left = 2+y + "%";
 
-// })
+})
 
-// }
+}
 
-// mousemove3()
+mousemove3()
 
 
 
