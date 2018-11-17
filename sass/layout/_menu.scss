@@ -1051,6 +1051,15 @@ audio {
     }
 }
 
+.char_fluid {
+ 
+    background: linear-gradient(to right, rgba(87, 61, 38, 0.9),rgba(87, 61, 38, 0.9)),
+    url("../images/photo-1484415063229-3d6335668531.jpg");
+    overflow: hidden;
+    background-size: cover;
+
+}
+
 .bio_cont {
 
     h2 {
@@ -1773,13 +1782,13 @@ audio {
     bottom: 10%;
     right: 5%;
        background-color: rgb(255, 255, 255);
-    color: rgba(255, 120, 0, 0.85);
+    color: rgb(87, 61, 38);
     text-align: center;
     font-size: 33px;
     /* text-decoration: none; */
     border-radius: 10px;
-    -webkit-animation: scroltop 1s infinite linear;
-            animation: scroltop 1s infinite linear;
+    -webkit-animation: scroltop 4s infinite linear;
+            animation: scroltop 4s infinite linear;
    -webkit-animation-direction: alternate;
            animation-direction: alternate; 
     
@@ -1789,39 +1798,40 @@ audio {
 @-webkit-keyframes scroltop{
     0% {
 
-        -webkit-transform:scale(1.3) rotate(270deg);
+        -webkit-transform:translate(0) rotate(270deg);
 
-                transform:scale(1.3) rotate(270deg);
-        opacity: 1;
+                transform:translate(0) rotate(270deg);
+     
 
     }
 
   
 
     100% {
-        -webkit-transform:scale(0.9) rotate(270deg);
-                transform:scale(0.9) rotate(270deg);
-        opacity: .7;
+        -webkit-transform:translateY(20px) rotate(270deg);
+                transform:translateY(20px) rotate(270deg);
+      ;
     }
 }
+
 
 
 @keyframes scroltop{
     0% {
 
-        -webkit-transform:scale(1.3) rotate(270deg);
+        -webkit-transform:translate(0) rotate(270deg);
 
-                transform:scale(1.3) rotate(270deg);
-        opacity: 1;
+                transform:translate(0) rotate(270deg);
+       
 
     }
 
   
 
     100% {
-        -webkit-transform:scale(0.9) rotate(270deg);
-                transform:scale(0.9) rotate(270deg);
-        opacity: .7;
+        -webkit-transform:translateY(20px) rotate(270deg);
+                transform:translateY(20px) rotate(270deg);
+      ;
     }
 }
 
@@ -2118,6 +2128,8 @@ audio {
 }
 .char_fluid {
     padding-bottom: 25px;
+   
+
 }
 .main_fluid .char_col .char_container #demos .owl-carousel .owl-nav .owl-prev {
     width: 40px;

@@ -5,6 +5,7 @@
     background-image: url("../images/background_book.jpg");
     height: 800px;
     width: 100%;
+    padding: 100px 0;
 }
 
 
@@ -16,12 +17,73 @@
 	background-position: center center;
 	margin:0 auto;
     border-radius: 5px;
+    padding: 50px 0px;
+    position: relative;
 
-	
+	.book_nd_main_content_bg {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        z-index: 100;
+
+         img {
+                max-width: 170px;
+                border-radius: 20px;
+                opacity: .7;
+                transition: .6s;
+                filter: grayscale(1);
+                cursor: pointer;
+
+
+                &:hover{
+                    filter:unset;
+                }
+         }
+    }
 }
 
 
 .book_nd_tittle {
+    position: relative;
 
      text-align: center;
+
+      h2 {
+        font-size: 65px;
+    letter-spacing: 5px;
+
+
+      }
+
+      .book_nd_ornament {
+        position:absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        text-align: center; 
+
+           img {
+            max-width: 200px;
+           }
+      }
+}
+
+
+.book_nd_main_text {
+
+    padding: 100px 0;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+
+      p {
+
+         font-style: italic;
+         text-align: justify;
+         font-size: 19px;
+
+
+
+      }
 }
