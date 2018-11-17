@@ -3,7 +3,6 @@
 .book_nd_fluid {
 
     background-image: url("../images/background_book.jpg");
-    height: 800px;
     width: 100%;
     padding: 100px 0;
 }
@@ -22,22 +21,36 @@
 
 	.book_nd_main_content_bg {
         position: absolute;
-        top: 5%;
-        left: 5%;
+        top: 1%;
+        left: 1%;
         z-index: 100;
 
          img {
-                max-width: 170px;
+                max-width: 85px;
                 border-radius: 20px;
                 opacity: .7;
                 transition: .6s;
                 filter: grayscale(1);
+                    filter: sepia(1);
                 cursor: pointer;
 
 
                 &:hover{
                     filter:unset;
                 }
+         }
+    }
+
+
+    .book_nd_main_content_bottom_bg {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 1%;
+        z-index: 10;
+
+         img {
+            max-height: 85px;
          }
     }
 }
@@ -50,7 +63,7 @@
 
       h2 {
         font-size: 65px;
-    letter-spacing: 5px;
+         letter-spacing: 5px;
 
 
       }
