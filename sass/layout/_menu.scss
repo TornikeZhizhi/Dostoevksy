@@ -1602,6 +1602,11 @@ audio {
     }
 }
 
+.only_books {
+     background:linear-gradient(to right, rgba(87, 61, 38, 0.45),rgba(87, 61, 38, 0.45)),
+    url("../images/old_paper2.jpeg") !important;
+}
+
 #section6 {
 
     position: relative;
@@ -2063,6 +2068,35 @@ audio {
 
 
 @media screen and (max-width: 576px) {
+
+    .book {
+    
+    width: 150px;
+    height: 245px;
+  
+}
+
+.page span {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.book_infos h4 {
+    font-size: 16px;
+}
+
+.align {
+    height: 270px;
+}
+
+.book_infos p {
+    font-style: 14px;
+}
+
+    .book_box_row .col-lg-3 {
+    margin-bottom: 75px;
+    
+}
     .resp_menu .nav-item {
     width: 185px;
     text-align: left;

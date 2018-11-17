@@ -712,10 +712,10 @@ figcaption p {
 @media screen and (max-width: 37.8125em) {
 	.align > li {
 		width: 100%;
-		min-height: 440px;
+		/*min-height: 440px;*/
 		height: auto;
 		padding: 0;
-		margin: 0 0 30px 0;
+	/*	margin: 0 0 30px 0;*/
 	}
 
 	.book {
