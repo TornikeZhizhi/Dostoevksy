@@ -36,7 +36,7 @@ audio {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100; }
+  z-index: 1000; }
 
 .main_fluid {
   height: 100%;
@@ -1665,5 +1665,34 @@ audio {
     font-style: italic;
     text-align: justify;
     font-size: 19px; }
+
+/*// biography*/
+.biography_fluid {
+  width: 100%;
+  padding: 100px 0; }
+  .biography_fluid .biography_nd_tittle {
+    text-align: center; }
+    .biography_fluid .biography_nd_tittle h2 {
+      font-size: 65px;
+      letter-spacing: 5px; }
+  .biography_fluid .biography_nd_main_content {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 50px 0px;
+    position: relative;
+    background-image: linear-gradient(rgba(87, 61, 38, 0.5), rgba(87, 61, 38, 0.5)), url("../images/Background Old Paper 1200x1815 - Copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .biography_fluid .biography_nd_main_text {
+    padding: 55px 0;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto; }
+    .biography_fluid .biography_nd_main_text p {
+      font-style: italic;
+      text-align: justify;
+      font-size: 19px; }
 
 /*# sourceMappingURL=main.css.map */

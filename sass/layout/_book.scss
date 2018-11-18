@@ -58,8 +58,7 @@
 
 .book_nd_tittle {
     position: relative;
-
-     text-align: center;
+    text-align: center;
 
       h2 {
         font-size: 65px;
@@ -99,4 +98,49 @@
 
 
       }
+}
+
+
+/*// biography*/
+
+
+
+.biography_fluid {
+    width: 100%; 
+    padding: 100px 0;
+
+      .biography_nd_tittle {
+        text-align: center;
+          h2 {
+            font-size: 65px;
+             letter-spacing: 5px;
+             }
+      }
+
+    .biography_nd_main_content {
+
+    max-width: 1200px;
+    width: 80%;
+    margin:0 auto;
+    border-radius: 5px;
+    padding: 50px 0px;
+    position: relative;
+    background-image: linear-gradient(rgba(87, 61, 38, 0.5),rgba(87, 61, 38, 0.5)) ,url("../images/Background Old Paper 1200x1815 - Copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .biography_nd_main_text {
+            padding: 55px 0;
+            max-width: 900px;
+            width: 90%;
+            margin: 0 auto;
+
+              p {
+
+                 font-style: italic;
+                 text-align: justify;
+                 font-size: 19px;   
+         }
+    }
 }
