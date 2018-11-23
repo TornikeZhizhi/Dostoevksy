@@ -793,76 +793,9 @@ audio {
 
 
 }
-.hover14 .book_image2::before {
-    position: absolute;
-    top: 0;
-    left: -85%;
-    z-index: 2;
-    display: block;
-    content: '';
-    width: 50%;
-    height: 100%;
-    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 100%);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,0)), to(rgba(255,255,255,.8)));
-    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 100%);
-    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 100%);
-    -webkit-transform: skewX(-25deg);
-    -ms-transform: skewX(-25deg);
-        transform: skewX(-25deg);
-}
-.hover14 .book_image2:hover::before {
-    -webkit-animation: shine .75s;
-    animation: shine 1.15s;
-}
-@-webkit-keyframes shine {
-    100% {
-        left: 125%;
-    }
-}
-@keyframes shine {
-    100% {
-        left: 125%;
-    }
-}
 
 
-.hover15 .book_image {
-    position: relative;
-}
-.hover15 .book_image::before {
-    position: absolute;
-    top: 0;
-        left: -55%;
-    z-index: 2;
-    display: block;
-    content: '';
-    width: 50%;
-    height: 100%;
-    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 100%);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,0)), to(rgba(255,255,255,.8)));
-    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 100%);
-    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.8) 100%);
-    -webkit-transform: skewX(-25deg);
-    -ms-transform: skewX(-25deg);
-        transform: skewX(-25deg);
-}
-.hover15 .book_image:hover::before {
-    -webkit-animation: shine .75s;
-    animation: shine .75s;
-}
-@-webkit-keyframes shine {
-    100% {
-        left: 125%;
-    }
-}
-@keyframes shine {
-    100% {
-        left: 125%;
-    }
-}
 
-
-//
 
 
 .fraz_fluid {
@@ -889,7 +822,14 @@ audio {
                     overflow: hidden;
                     border-radius: 15px;
                         padding: 0px 20px;
-                        display: inline-block;
+                        display: inline-block; 
+                         transition: .4s;
+                         text-transform: capitalize;
+         
+
+                     &:hover{
+                            text-shadow: 2px 2px 16px #000;
+                     }  
 
 
                 }
@@ -912,7 +852,7 @@ audio {
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-        background-color: rgba(87, 61, 38, 0.9) !important;
+        background-color: #ebc0768c !important;
 }
 
 .n3_box {
@@ -1941,8 +1881,8 @@ audio {
 }
 .fraz_fluid h5 {
     font-size: 28px;
-  
-}
+
+  }
 
 .main_fluid .bio_coll .bio_img_col .bio_img {
     width: 360px;

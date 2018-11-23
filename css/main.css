@@ -539,63 +539,6 @@ audio {
 .hover14 .book_image2 {
   position: relative; }
 
-.hover14 .book_image2::before {
-  position: absolute;
-  top: 0;
-  left: -85%;
-  z-index: 2;
-  display: block;
-  content: '';
-  width: 50%;
-  height: 100%;
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.8)));
-  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
-  -webkit-transform: skewX(-25deg);
-  -ms-transform: skewX(-25deg);
-  transform: skewX(-25deg); }
-
-.hover14 .book_image2:hover::before {
-  -webkit-animation: shine .75s;
-  animation: shine 1.15s; }
-
-@-webkit-keyframes shine {
-  100% {
-    left: 125%; } }
-@keyframes shine {
-  100% {
-    left: 125%; } }
-.hover15 .book_image {
-  position: relative; }
-
-.hover15 .book_image::before {
-  position: absolute;
-  top: 0;
-  left: -55%;
-  z-index: 2;
-  display: block;
-  content: '';
-  width: 50%;
-  height: 100%;
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.8)));
-  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 100%);
-  -webkit-transform: skewX(-25deg);
-  -ms-transform: skewX(-25deg);
-  transform: skewX(-25deg); }
-
-.hover15 .book_image:hover::before {
-  -webkit-animation: shine .75s;
-  animation: shine .75s; }
-
-@-webkit-keyframes shine {
-  100% {
-    left: 125%; } }
-@keyframes shine {
-  100% {
-    left: 125%; } }
 .fraz_fluid {
   padding: 50px 73px;
   padding-bottom: 25px;
@@ -616,7 +559,11 @@ audio {
     overflow: hidden;
     border-radius: 15px;
     padding: 0px 20px;
-    display: inline-block; }
+    display: inline-block;
+    transition: .4s;
+    text-transform: capitalize; }
+    .fraz_fluid h5:hover {
+      text-shadow: 2px 2px 16px #000; }
   .fraz_fluid p {
     font-size: 36px;
     color: #000; }
@@ -630,7 +577,7 @@ audio {
   justify-content: center; }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: rgba(87, 61, 38, 0.9) !important; }
+  background-color: #ebc0768c !important; }
 
 .n3_box {
   padding-left: 0px;
@@ -1669,30 +1616,61 @@ audio {
 /*// biography*/
 .biography_fluid {
   width: 100%;
-  padding: 100px 0; }
+  padding: 100px 0;
+  background-color: #573d26; }
   .biography_fluid .biography_nd_tittle {
-    text-align: center; }
+    text-align: center;
+    position: relative; }
+    .biography_fluid .biography_nd_tittle .bio_tittle_orn {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100;
+      top: 100%; }
+      .biography_fluid .biography_nd_tittle .bio_tittle_orn img {
+        width: 300px;
+        filter: brightness(); }
     .biography_fluid .biography_nd_tittle h2 {
       font-size: 65px;
-      letter-spacing: 5px; }
+      letter-spacing: 5px;
+      color: #000;
+      user-select: none;
+      text-shadow: 9px 6px 20px #000;
+      font-weight: bold; }
   .biography_fluid .biography_nd_main_content {
-    max-width: 1200px;
+    max-width: 1300px;
     width: 80%;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 10%;
     padding: 50px 0px;
     position: relative;
-    background-image: linear-gradient(rgba(87, 61, 38, 0.5), rgba(87, 61, 38, 0.5)), url("../images/Background Old Paper 1200x1815 - Copy.jpg");
+    background-image: linear-gradient(rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), url("../images/Background Old Paper 1200x1815 - Copy.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
   .biography_fluid .biography_nd_main_text {
-    padding: 55px 0;
-    max-width: 900px;
+    padding: 100px 0 55px;
+    max-width: 990px;
     width: 90%;
     margin: 0 auto; }
     .biography_fluid .biography_nd_main_text p {
       font-style: italic;
       text-align: justify;
-      font-size: 19px; }
+      font-size: 19px;
+      user-select: none; }
+      .biography_fluid .biography_nd_main_text p:first-letter {
+        font-size: 22px;
+        font-weight: bold; }
+
+.biography_img {
+  text-align: center; }
+  .biography_img img {
+    filter: grayscale(1);
+    width: 300px;
+    transition: .7s;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.8)); }
+    .biography_img img:hover {
+      filter: drop-shadow(15px 16px 10px rgba(0, 0, 0, 0.8));
+      transform: translateY(-15px); }
 
 /*# sourceMappingURL=main.css.map */
