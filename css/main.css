@@ -1641,7 +1641,7 @@ audio {
     max-width: 1300px;
     width: 80%;
     margin: 0 auto;
-    border-radius: 10%;
+    /* border-radius: 10%;*/
     padding: 50px 0px;
     position: relative;
     background-image: linear-gradient(rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), url("../images/Background Old Paper 1200x1815 - Copy.jpg");
@@ -1656,7 +1656,8 @@ audio {
       font-style: italic;
       text-align: justify;
       font-size: 19px;
-      user-select: none; }
+      user-select: none;
+      font-weight: bold; }
       .biography_fluid .biography_nd_main_text p:first-letter {
         font-size: 22px;
         font-weight: bold; }
@@ -1671,6 +1672,6 @@ audio {
     filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.8)); }
     .biography_img img:hover {
       filter: drop-shadow(15px 16px 10px rgba(0, 0, 0, 0.8));
-      transform: translateY(-15px); }
+      transform: translateY(-8px); }
 
 /*# sourceMappingURL=main.css.map */
