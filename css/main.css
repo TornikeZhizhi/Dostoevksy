@@ -1060,7 +1060,10 @@ audio {
       width: 100%; }
 
 .only_books {
-  background: linear-gradient(to right, rgba(87, 61, 38, 0.45), rgba(87, 61, 38, 0.45)), url("../images/old_paper2.jpeg") !important; }
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.85), rgba(87, 61, 38, 0.85)), url("../images/test/photo-1473755504818-b72b6dfdc226.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 #section6 {
   position: relative; }
@@ -1644,12 +1647,18 @@ audio {
   .book_nd_main_text p {
     font-style: italic;
     text-align: justify;
-    font-size: 19px; }
+    font-size: 19px;
+    text-indent: 30px; }
+    .book_nd_main_text p:first-letter {
+      font-size: 24px;
+      font-weight: bold; }
 
 /*// biography*/
 .biography_fluid {
   width: 100%;
   padding: 100px 0;
+  background-position: center;
+  background-size: cover;
   background-color: #573d26; }
   .biography_fluid .biography_nd_tittle {
     text-align: center;
@@ -1690,7 +1699,8 @@ audio {
       text-align: justify;
       font-size: 19px;
       user-select: none;
-      font-weight: bold; }
+      font-weight: bold;
+      text-indent: 30px; }
       .biography_fluid .biography_nd_main_text p:first-letter {
         font-size: 22px;
         font-weight: bold; }
@@ -1720,10 +1730,7 @@ audio {
   max-width: 1200px;
   width: 80%;
   background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15), rgba(87, 61, 38, 0.15)), url("../images/test/rawpixel-594858-unsplash.jpg");
-  height: 100%;
-  /*   box-shadow: inset 0px 0px 50px 0px rgba(158, 106, 15, 0.85)*/
   background-position: center center;
-  height: 900px;
   margin: 0 auto;
   border-radius: 5px;
   background-size: cover;
@@ -1745,14 +1752,17 @@ audio {
 
 .reviews_nd_main_text {
   padding: 45px 0 100px;
-  max-width: 900px;
+  max-width: 1000px;
   width: 90%;
   margin: 0 auto; }
   .reviews_nd_main_text p {
     font-style: italic;
     text-align: justify;
     font-size: 19px;
-    font-weight: bold; }
+    font-weight: bold;
+    text-indent: 30px; }
+    .reviews_nd_main_text p:first-letter {
+      font-size: 23px; }
 
 .revies_nd_main_img {
   text-align: center;
@@ -1767,5 +1777,30 @@ audio {
     font-size: 50px;
     letter-spacing: 4px;
     user-select: none; }
+
+.reviews_dec_bott {
+  position: absolute;
+  bottom: -2%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100; }
+  .reviews_dec_bott img {
+    width: 285px; }
+
+/*// charackters*/
+.characters_fluid {
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/test/photo-1463143296037-46790ff95a7e.jpg);
+  overflow: hidden;
+  background-position: center;
+  background-size: cover; }
+  .characters_fluid h4 {
+    color: #b38534;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 10px; }
+  .characters_fluid .review_cont .reviews_box .reviews_img {
+    margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

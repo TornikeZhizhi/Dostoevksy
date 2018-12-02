@@ -1584,8 +1584,11 @@ audio {
 }
 
 .only_books {
-     background:linear-gradient(to right, rgba(87, 61, 38, 0.45),rgba(87, 61, 38, 0.45)),
-    url("../images/old_paper2.jpeg") !important;
+     background:linear-gradient(to right, rgba(87, 61, 38, 0.85),rgba(87, 61, 38, 0.85)),
+    url("../images/test/photo-1473755504818-b72b6dfdc226.jpg") !important;
+    background-size: cover !important;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 #section6 {
