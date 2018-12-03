@@ -763,27 +763,42 @@ figcaption p {
     margin: 13px 0;
     font-weight: bold;
     cursor: pointer;
+    font-family: 'Conv_bebas-neue-bold';
      }
 
-
-   .book_infos  p {
-    color: #fff;
-    font-style: italic;
+.book_text_wrapper {
+	
     overflow-y: scroll;
     height: 120px;
+   
+}
+
+
+   .book_text_wrapper  p,.book_text_wrapper  span {
+    color: #fff;
     padding-right: 10px;
+    font-size: 14px;
     word-break: break-word;
+    font-family: 'Conv_bpg_nino_medium_caps' !important;
      }
 
 
-.book_infos  p::-webkit-scrollbar{
+.book_text_wrapper::-webkit-scrollbar{
 	width: 2px;
 }
 
    .book_infos  a {
-     	    display: inline-block;
+     	 display: inline-block;
     color: #ebc076;
     text-align: left;
+    font-family: 'Conv_bebas-neue-bold';
+        margin-top: 12px;
+     }
+
+     .book_infos  a span{
+     	   height: unset !important;
+     	   overflow: unset;
+    font-family: 'Conv_bebas-neue-bold' !important;
      }
 
 

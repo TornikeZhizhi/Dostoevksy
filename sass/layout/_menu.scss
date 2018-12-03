@@ -43,6 +43,7 @@ audio {
                         color: #fff;
                         font-weight: bold;
                         cursor: pointer;
+                        font-family: 'Conv_bebas-neue-bold';
 
                         
                             margin-bottom: 55px;
@@ -268,23 +269,27 @@ audio {
 
                             h2 {
 
-                                font-size: 45px;
+                                font-size: 34px;
                                 margin: 30px 0;
                                 color: #fff;
                                 margin-top: 0;
+                                font-family: 'Conv_bebas-neue-bold';
                             }
 
                             .chilhood {
                                 margin: 30px 0;
 
                                 h3 {
-                                    font-weight: bold;
+                                    
+                                    font-family: 'Conv_bebas-neue-bold';
+                                        color: #ebc076;
                                 }
 
-                                    p {
-                                            font-size: 17px;
+                                    p,span {
+                                            font-size: 14px;
                                             color: #fff;
                                             opacity: .8;
+                                            font-family: 'Conv_bpg_nino_medium_caps' !important;
                                     }
                             }
 
@@ -292,22 +297,41 @@ audio {
                                 margin: 30px 0;
 
                                     h3 {
-                                    font-weight: bold;
-                                }
+                                    font-family: 'Conv_bebas-neue-bold';
+                                        color: #ebc076;           
 
-                                p {
-                                        font-size: 17px;
+                                   
+                                                             }
+                                                         }
+
+
+                        .home_bio_wrapper {
+
+                            overflow-y: scroll;
+                            height: 170px;
+
+                            &::-webkit-scrollbar {
+                                width: 1px;
+                            }
+
+                             p,span {
+                                        font-size: 14px;
+                                         font-family: 'Conv_bpg_nino_medium_caps' !important;
                                         color: #fff;
                                             opacity: .8;
 
                                 }
-                            }
+                        }   
+
+                               
+                            
 
 
                             a {
                                     font-size: 20px;
                                     color: #ebc076;
                                     text-transform: capitalize;
+                                    font-family: 'Conv_bebas-neue-bold';
                             }
                             
                     }
@@ -443,6 +467,8 @@ audio {
                                 position: relative;
                                 margin: 50px 0;
                                 color: #fff;
+                                font-family: 'Conv_bebas-neue-bold';
+
 
                                 &:after {
                                         content: "";
@@ -487,39 +513,46 @@ audio {
                                     background-color: rgba(87, 61, 38, 0.3);
                         }
 
-
                     .info_box {
 
                         color: #fff;
-                            width: 29%;
-                                margin-left: 100px;
+                        width: 29%;
+                         margin-left: 100px;
 
                             h2 {
-                                font-size: 70px;
-                                line-height: 57px;
+                                font-size: 62px;
+                                 line-height: 60px;
                                 position: relative;
+                                    font-family: 'Conv_bebas-neue-bold';
                                     USER-SELECT: none;
 
 
                         
                             }
 
-                            p {
-                                font-size:25px;
+                            p,span {
+                                font-size:21px;
                                 margin: 30px 0px;
                             line-height: 27px;
-                                font-style: italic;
+                                font-family: 'Conv_bpg_nino_medium_caps' !important;
 
                                     
                             }
 
                             a {
-                                display: inline-block;
-                                font-size: 15px;
-                                color: #ebc076;
+
+                                span {
+
                                 font-size: 20px;
                                 color: #ebc076;
+                                margin: 0;
+                                font-family: 'Conv_bebas-neue-bold' !important;
+                                    
+                                }
+                                display: inline-block;
+                                color: #ebc076;
                                 text-transform: capitalize;
+
 
                             }
                     }
@@ -647,7 +680,7 @@ audio {
 
                             a {
                                     display: inline-block;
-                                    font-size: 20px;
+                                    font-size: 17px;
                                     display: -webkit-box;
                                     display: -ms-flexbox;
                                     display: flex;
@@ -659,6 +692,7 @@ audio {
                                      transition:.4s;
                                      color: #fff;
                                      margin-right: 5px;
+                                     font-family: 'Conv_bebas-neue-bold';
 
 
 
@@ -667,7 +701,8 @@ audio {
                                      }
 
                                      &:hover {
-                                          opacity: .4;
+                                        color: #ebc076;
+                                      
                                      }
                                     
 
@@ -814,7 +849,6 @@ audio {
                     color: #000;
                     font-style: italic;
                     letter-spacing: -1px;
-                    font-weight: bold;
                     -webkit-transition:.3s;
                     -o-transition:.3s;
                     transition:.3s;
@@ -826,6 +860,7 @@ audio {
                         display: inline-block; 
                          transition: .4s;
                          text-transform: capitalize;
+                         font-family: 'Conv_bebas-neue-regular';
          
 
                      &:hover{
@@ -835,10 +870,14 @@ audio {
 
 
                 }
-                    p {
+                    span {
 
                     font-size: 36px;
                     color: #000;
+                    font-family: 'Conv_bebas-neue-bold';
+                    cursor: default;
+                    display: block;
+                    word-spacing: 5px;
                     }
                                     
             }
@@ -885,6 +924,7 @@ audio {
             margin-top: 70px;
             color: #fff;
             cursor: pointer;
+            font-family: 'Conv_bebas-neue-bold';
                  &:after {
                 content: "";
                 top: 0;
@@ -923,13 +963,17 @@ audio {
 
                     a {
                         text-transform: capitalize;
+                         font-family: 'Conv_bebas-neue-bold';
+                         font-style: normal !important;
                     }
                 }
           
                   a {
+                font-style: italic;
                 display: inline-block;
                 color: #b38534;
                 margin-top: 10px;
+                font-family: 'Conv_bebas-neue-bold';
 
                     .fas {
                         display: inline-block;
@@ -1001,14 +1045,15 @@ audio {
                     width:1px;
                 }
 
-                 p {
+                 p,span {
 
                 color: #fff;
-                font-size: 18px;
+                font-size: 15px;
                 -webkit-transition:.3s;
                 -o-transition:.3s;
                 transition:.3s;
                 opacity: .8;
+                font-family: 'Conv_bpg_nino_medium_caps' !important;
 
                
                 
@@ -1112,11 +1157,15 @@ audio {
          .contact_info_box {
             margin-top: 40px;
 
-                p {
+                p,span {
                         color: rgb(255, 255, 255);
                         font-size: 19px;
                         line-height: 34px;
-                            text-align: left;
+                        cursor: default;
+                        text-align: left;
+                        font-family: 'Conv_bpg_nino_medium_caps';
+                        font-style: italic;
+                        opacity: .8;
                 }
          }
 
@@ -1129,13 +1178,15 @@ audio {
                     display: -ms-flexbox;
                     display: flex;
                     -webkit-box-align: center;
+                        opacity: .8;
                     -ms-flex-align: center;
                         align-items: center;
                     margin-bottom: 35px;
                         margin-bottom: 45px;
-                            font-weight: bold;
+                    font-family: 'Conv_bebas-neue-bold';
                         font-size: 21px;
                         font-style: italic;
+                        cursor: default;
 
 
                         .fas {
@@ -1155,18 +1206,23 @@ audio {
 
                     ::-webkit-input-placeholder{
                         color:#fff;
+                        font-family: 'Conv_bebas-neue-regular';
+
                     }
 
                     :-ms-input-placeholder{
                         color:#fff;
+                        font-family: 'Conv_bebas-neue-regular';
                     }
 
                     ::-ms-input-placeholder{
                         color:#fff;
+                        font-family: 'Conv_bebas-neue-regular';
                     }
 
                     ::placeholder{
                         color:#fff;
+                        font-family: 'Conv_bebas-neue-regular';
                     }
                      input {
                             display: block;
@@ -1177,7 +1233,8 @@ audio {
                             margin-top: 20px;
                             color: #fff;
                             width: 85%;
-                                font-style: italic;
+                            font-style: italic;
+                            font-family: 'Conv_bpg_nino_medium_caps';
 
                             &:focus {
                                 border-color: #ebc076;
@@ -1210,7 +1267,7 @@ audio {
     color: #fff;
     border: none;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: 'Conv_bebas-neue-bold';
     cursor: pointer;
     float: left;
                      }
@@ -1224,6 +1281,7 @@ audio {
                 margin-top: 70px;
                 margin-bottom: 30px;
                 cursor: pointer;
+                font-family: 'Conv_bebas-neue-bold';
 
 
                     &:after {
@@ -1259,7 +1317,8 @@ audio {
     position: relative;
     margin: 50px 0;
     color: #fff;  
-    display: inline-block; 
+    display: inline-block;
+    font-family: 'Conv_bebas-neue-bold'; 
 
 
     &:after {
