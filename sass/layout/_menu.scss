@@ -1908,6 +1908,12 @@ audio {
 @media screen and (max-width: 992px) {
 
 
+    .fraz_fluid span {
+    font-size: 24px;
+
+}
+
+
     .main_fluid {
    
     padding-top: 23px;
@@ -2107,10 +2113,22 @@ audio {
 .main_fluid .bio_coll .bio_img_col {
     padding: 0px 0; 
 }
+
+.fraz_fluid span {
+    font-size: 24px;
+
+}
+
 }
 
 
 @media screen and (max-width: 576px) {
+
+    .reviews_home_tittle h2 {
+    margin: 0px 0;
+    margin-top: 30px;
+    
+}
 
     .book {
     
@@ -2293,8 +2311,9 @@ audio {
 
 .main_fluid .main_right_col .info_box {
     color: #fff;
-    width: 80%;
-    margin-left: 31px;
+     width: 90%;
+    margin-left: 10px;
+
 }
 .main_fluid .main_right_col .info_box h2 {
     font-size: 27px;
@@ -2310,9 +2329,7 @@ audio {
     margin: 21px 0px;
     line-height: 25px;
 }
-.fraz_fluid h5 {
-    font-size: 18px;
-}
+
 .fraz_fluid p {
     font-size: 18px;
     color: #000;
