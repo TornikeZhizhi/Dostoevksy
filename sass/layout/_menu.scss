@@ -25,6 +25,10 @@ audio {
     top: 0;
     left: 0;
     z-index: 1000;
+
+    .container {
+        max-width: 1250px;
+    }
 }
 .main_fluid {
         height: 100%;
