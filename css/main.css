@@ -1173,9 +1173,9 @@ audio {
 #section3 {
   position: relative;
   overflow: hidden;
-  background-repeat: no-repeat;
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.85), rgba(87, 61, 38, 0.85)), url("../images/photo-1432821596592-e2c18b78144f.jpg");
   background-size: cover;
-  background: linear-gradient(to right, rgba(87, 61, 38, 0.85), rgba(87, 61, 38, 0.85)), url("../images/photo-1432821596592-e2c18b78144f.jpg"); }
+  background-repeat: no-repeat; }
   #section3 #bio_move {
     position: absolute;
     top: 5%;

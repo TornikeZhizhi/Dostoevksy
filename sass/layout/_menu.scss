@@ -1689,10 +1689,10 @@ audio {
 
     position: relative;
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
     background: linear-gradient(to right, rgba(87, 61, 38, 0.85),rgba(87, 61, 38, 0.85)),
     url("../images/photo-1432821596592-e2c18b78144f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
         #bio_move {
