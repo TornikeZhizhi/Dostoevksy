@@ -205,6 +205,24 @@
 }
 
 
+.facts_content {
+    max-width: 1200px;
+    width: 80%;
+    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15),
+    rgba(87, 61, 38, 0.15)),url("../images/pexels-photo-884452.jpeg");
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 50px 0px;
+    position: relative;
+   /* box-shadow: inset 0px 0px 50px 0px rgba(158, 106, 15, 0.85);*/
+}
+
+.facts_fluid {
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
+    background-image: url(../images/pexels-photo.jpg);
+}
 
 .reviews_nd_nd_fluid {
     position: relative;
@@ -357,7 +375,7 @@
 .characters_nd_fluid {
   width: 100%;
   padding: 100px 0;
-    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.55), rgba(87, 61, 38, 0.55)), 
+    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.75), rgba(87, 61, 38, 0.75)), 
     url(../images/test/background-blank-canvas-877700.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -367,9 +385,8 @@
       
       background-image: linear-gradient(to right, rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), 
       url(../images/test/rawpixel-594858-unsplash.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: top;
       max-width: 1200px;
       width: 90%;
       margin: 0 auto;
@@ -413,4 +430,75 @@
             font-weight: bold;
       }
   }
+}
+
+
+
+
+.facts_main_tittle {
+    text-align: center;
+    position: relative;
+    margin-bottom: 140px;
+              img {
+                width: 150px;
+                border-radius: 10px
+              }
+
+    .facts_tittle_decor {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+
+        img {
+            width: 300px;
+        }
+    }
+
+
+    h2 {
+
+    font-family: 'Conv_bebas-neue-bold';
+    }
+
+}
+
+.facts_wrapper {
+    
+    border-top: 3px solid #000;
+    border-radius: 0%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 29px;
+    margin-bottom: 50px;
+
+
+        .facts_tittle {
+
+            text-align: center;
+            max-width: 360px;
+            margin: 0 auto;
+            width: 90%;
+
+              h3 {
+             font-family: 'Conv_bebas-neue-regular';
+            color: #000;
+            border: 3px solid #000;
+            border-top: none;
+            font-weight: bold;
+              }
+
+        }
+
+        .facts_text {
+            width: 90%;
+            margin: 35px auto 40px; 
+             p,span {
+                color: #000;
+                font-family: 'Conv_bpg_nino_mtavruli_normal' !important;
+                font-size: 19px;
+                font-weight: bold;
+             }
+        }
+
 }
