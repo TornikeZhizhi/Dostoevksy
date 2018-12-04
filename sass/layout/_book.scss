@@ -210,7 +210,7 @@
     position: relative;
     width: 100%;
     padding: 100px 0;
-    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.65),rgba(87, 61, 38, 0.65)),url("../images/test/photo-1524098837898-6b1c101a85f6.jpg");
+    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.45),rgba(87, 61, 38, 0.45)),url("../images/test/photo-1524098837898-6b1c101a85f6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,7 +260,7 @@
      p,span  {
         text-align: justify;
         font-weight: bold;
-        font-size: 21px;
+        font-size: 19px;
         text-indent: 30px;
         font-family: 'Conv_bpg_nino_medium_caps' !important;
 
@@ -351,4 +351,66 @@
 .book_r_content::-webkit-scrollbar{
     width: 1px;
 
+}
+
+
+.characters_nd_fluid {
+  width: 100%;
+  padding: 100px 0;
+    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.55), rgba(87, 61, 38, 0.55)), 
+    url(../images/test/background-blank-canvas-877700.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  .characters_nd_main_content {
+      
+      background-image: linear-gradient(to right, rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), 
+      url(../images/test/rawpixel-594858-unsplash.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      max-width: 1200px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 80px 0px;
+  }
+
+  .characters_nd_main_img {
+    text-align: center;
+
+    img {
+     width: 200px;
+     border-radius: 50%;
+
+    }
+  }
+
+  h4 {
+    font-family: 'Conv_bebas-neue-bold';
+        margin-top: 20px;
+        font-size: 34px;
+
+  }
+
+  span {
+    color: #000;
+    font-family: 'Conv_BPG_Glaho' !important;
+    font-size: 25px;
+  }
+
+  .characters_nd_main_text {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0;
+
+      p,span {
+            font-family: 'Conv_bpg_nino_medium_caps' !important;
+            font-size: 19px;
+            color: #000;
+            opacity: .9;
+            text-indent: 25px;
+            font-weight: bold;
+      }
+  }
 }
