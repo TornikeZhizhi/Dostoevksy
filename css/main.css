@@ -1726,7 +1726,8 @@ audio {
   .book_nd_tittle h2 {
     font-size: 65px;
     letter-spacing: 5px;
-    color: #000; }
+    color: #000;
+    font-family: 'Conv_bebas-neue-bold'; }
   .book_nd_tittle .book_nd_ornament {
     position: absolute;
     top: 40px;
@@ -1818,7 +1819,7 @@ audio {
 .facts_content {
   max-width: 1200px;
   width: 80%;
-  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15), rgba(87, 61, 38, 0.15)), url("../images/pexels-photo-884452.jpeg");
+  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15), rgba(87, 61, 38, 0.15)), url("../images/paper.jpg");
   margin: 0 auto;
   border-radius: 5px;
   padding: 50px 0px;
@@ -1829,7 +1830,7 @@ audio {
   position: relative;
   width: 100%;
   padding: 100px 0;
-  background-image: url(../images/pexels-photo.jpg); }
+  background-image: url(../images/background_book.jpg); }
 
 .reviews_nd_nd_fluid {
   position: relative;
