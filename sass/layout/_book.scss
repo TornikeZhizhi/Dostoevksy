@@ -88,7 +88,7 @@
     text-align: center;
 
     img {
-          width: 250px;
+          width: 200px;
     }
 
 
@@ -96,7 +96,7 @@
         font-size: 37px;
     letter-spacing: 0px;
     color: #7d3921;
-    margin: 105px 0 70px;
+    margin: 105px 0 35px;
     font-family: 'Conv_bebas-neue-bold';
 
 
@@ -220,8 +220,10 @@ text-align: center;
         font-weight: bold;
 
             &:first-letter {
-                font-size:24px;
+                font-size:22px;
                 font-weight: bold;
+                font-family: 'Conv_bpg_web_002_caps';
+                letter-spacing: 2px;
             }
 
 
@@ -260,42 +262,46 @@ text-align: center;
                 }
 
           h2 {
-           font-size: 65px;
+            font-size: 65px;
             letter-spacing: 5px;
             color: #000;
             user-select: none;
-            text-shadow: 9px 6px 20px #000;
-            font-weight: bold;
+            margin: 20px 0px;
+            user-select: none;
+            font-family: 'Conv_bebas-neue-bold';
              }
       }
 
     .biography_nd_main_content {
 
-    max-width: 1300px;
-    width: 80%;
-    margin:0 auto;
-   /* border-radius: 10%;*/
-    padding: 50px 0px;
+    max-width: 1400px;
+    width: 90%;
+    background-image: url(../images/paper.jpg);
+    height: 100%;
+    box-shadow: inset 0px 0px 50px 0px rgba(158, 106, 15, 0.85);
+    background-position: center center;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 50px 0px 140px;
     position: relative;
-    background-image: linear-gradient(rgba(87, 61, 38, 0.2),rgba(87, 61, 38, 0.2)) ,url("../images/Background Old Paper 1200x1815 - Copy.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     }
 
     .biography_nd_main_text {
             padding: 100px 0 55px;
-            max-width: 990px;
+            max-width: 1100px;
             width: 90%;
             margin: 0 auto;
 
-              p {
 
-                 font-style: italic;
-                 text-align: justify;
-                 font-size: 19px; 
-                 user-select: none;
-                font-weight: bold;
-                text-indent: 30px;
+              p,span {
+
+                     font-style: italic;
+                  text-align: justify;
+                  font-size: 17px;
+                  user-select: none;
+                  font-weight: bold;
+                  text-indent: 30px;
+                  font-family: 'Conv_bpg_nino_mtavruli_normal' !important;
 
 
                  &:first-letter{
@@ -313,7 +319,7 @@ text-align: center;
      img {
 
         filter: grayscale(1);
-         width: 200px;
+         width: 100px;
          transition:.7s;
          cursor: pointer;
          filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.8));
