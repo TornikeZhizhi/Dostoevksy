@@ -1838,15 +1838,27 @@ audio {
   .biography_fluid .biography_nd_tittle {
     text-align: center;
     position: relative; }
-    .biography_fluid .biography_nd_tittle .bio_tittle_orn img {
-      width: 185px; }
+    .biography_fluid .biography_nd_tittle img {
+      width: 300px;
+      display: block;
+      margin: 66px auto 0; }
+    .biography_fluid .biography_nd_tittle .bio_tittle_orn {
+      position: relative; }
+      .biography_fluid .biography_nd_tittle .bio_tittle_orn .bio_tittle_decor {
+        position: absolute;
+        top: -229px;
+        left: 50%;
+        z-index: 100;
+        transform: translateX(-50%); }
+        .biography_fluid .biography_nd_tittle .bio_tittle_orn .bio_tittle_decor img {
+          width: 240px; }
     .biography_fluid .biography_nd_tittle h2 {
-      font-size: 65px;
-      letter-spacing: 5px;
+      font-size: 43px;
+      letter-spacing: 2px;
       color: #000;
       color: #6b4618;
       user-select: none;
-      margin: 20px 0px;
+      margin: 60px 0px 30px;
       user-select: none;
       font-family: 'Conv_bebas-neue-bold'; }
   .biography_fluid .biography_nd_main_content {

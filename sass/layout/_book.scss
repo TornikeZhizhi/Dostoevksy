@@ -250,23 +250,40 @@ text-align: center;
         text-align: center;
         position: relative;
 
+        img {
+         width: 300px;
+    display: block;
+    margin: 66px auto 0;
+        }
+
                 .bio_tittle_orn {
+                  position: relative;
+                  .bio_tittle_decor {
+                           position: absolute;
+    top: -229px;
+    left: 50%;
+    z-index: 100;
+    transform: translateX(-50%);
+
+                  img{
+
+                        width: 240px;
+                  }
+
+                  }
                   
-                     img {
-                        width: 185px;
-                       
-                     }
+                   
                 }
 
           h2 {
-            font-size: 65px;
-            letter-spacing: 5px;
-            color: #000;
-            color: #6b4618;
-            user-select: none;
-            margin: 20px 0px;
-            user-select: none;
-            font-family: 'Conv_bebas-neue-bold';
+                font-size: 43px;
+                letter-spacing: 2px;
+                color: #000;
+                color: #6b4618;
+                user-select: none;
+                margin: 60px 0px 30px;
+                user-select: none;
+                font-family: 'Conv_bebas-neue-bold';
              }
       }
 
