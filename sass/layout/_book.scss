@@ -234,7 +234,29 @@ text-align: center;
 
 /*// biography*/
 
+.bio_nd_tittle {
+    padding-left: 5%;
+    text-align: center;
+    margin-bottom: 30px;
 
+    h3 {
+         font-family: 'Conv_bebas-neue-bold';
+         cursor: default;
+    }
+}
+
+.bio_nd_text_wrapper {
+    margin-bottom: 80px;
+    position: relative;
+
+    .bio_nd_end_orn {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+    }
+}
 
 
 .biography_fluid {
