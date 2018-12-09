@@ -12,14 +12,7 @@ audio {
     z-index: -1;
 }
 .header_fluid {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(87, 61, 38, 0.9)), 
-        to(rgba(87, 61, 38, 0.9))), url("../images/photo-1507842217343-583bb7270b66.jpg");
-    background-image: -webkit-linear-gradient(left top, rgba(87, 61, 38, 0.9), 
-        rgba(87, 61, 38, 0.9)), url("../images/photo-1507842217343-583bb7270b66.jpg");
-    background-image: -o-linear-gradient(left top, rgba(87, 61, 38, 0.9), 
-        rgba(87, 61, 38, 0.9)), url("../images/photo-1507842217343-583bb7270b66.jpg");
-    background-image: linear-gradient(to right bottom, rgba(87, 61, 38, 0.9), 
-        rgba(87, 61, 38, 0.9)), url("../images/photo-1507842217343-583bb7270b66.jpg");
+   background-image: linear-gradient(to right bottom, rgba(87, 61, 38, 0.7), rgba(87, 61, 38, 0.7)), url("../images/test/photo-1524098837898-6b1c101a85f6.jpg");
 
     position: fixed;
     top: 0;
@@ -1802,7 +1795,7 @@ audio {
 }
 .resp_menu {
     .nav-item {
-    width: 250px;
+    width: 270px;
         text-align: left;
 }
 } 
@@ -2099,12 +2092,13 @@ audio {
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     display: inline-block;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    font-family: 'Conv_bebas-neue-bold';
 }
 
 }

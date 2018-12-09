@@ -78,10 +78,7 @@ audio {
   z-index: -1; }
 
 .header_fluid {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(87, 61, 38, 0.9)), to(rgba(87, 61, 38, 0.9))), url("../images/photo-1507842217343-583bb7270b66.jpg");
-  background-image: -webkit-linear-gradient(left top, rgba(87, 61, 38, 0.9), rgba(87, 61, 38, 0.9)), url("../images/photo-1507842217343-583bb7270b66.jpg");
-  background-image: -o-linear-gradient(left top, rgba(87, 61, 38, 0.9), rgba(87, 61, 38, 0.9)), url("../images/photo-1507842217343-583bb7270b66.jpg");
-  background-image: linear-gradient(to right bottom, rgba(87, 61, 38, 0.9), rgba(87, 61, 38, 0.9)), url("../images/photo-1507842217343-583bb7270b66.jpg");
+  background-image: linear-gradient(to right bottom, rgba(87, 61, 38, 0.7), rgba(87, 61, 38, 0.7)), url("../images/test/photo-1524098837898-6b1c101a85f6.jpg");
   position: fixed;
   top: 0;
   left: 0;
@@ -1260,7 +1257,7 @@ audio {
   font-size: 60px; }
 
 .resp_menu .nav-item {
-  width: 250px;
+  width: 270px;
   text-align: left; }
 
 .resp_menu {
@@ -1464,12 +1461,13 @@ audio {
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     display: inline-block;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s; } }
+    transition: 0.3s;
+    font-family: 'Conv_bebas-neue-bold'; } }
 @media screen and (max-width: 768px) {
   .main_fluid .bio_info_col {
     padding: 0px 0; }
@@ -1685,10 +1683,75 @@ audio {
   width: 100%;
   padding: 100px 0; }
 
-.book_nd_main_content {
+.events_fluid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/test/photo-1524098837898-6b1c101a85f6.jpg);
+  width: 100%;
+  padding: 100px 0;
+  background-position: top; }
+
+.events_main_content {
   max-width: 1400px;
   width: 80%;
-  background-image: url("../images/paper.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../images/test/rawpixel-594858-unsplash.jpg);
+  height: 100%;
+  /* box-shadow: inset 0px 0px 50px 0px rgba(158, 106, 15, 0.85); */
+  background-position: center center;
+  margin: 0 auto;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 50px 0px 140px;
+  position: relative; }
+
+.events_nd_main_text {
+  padding: 100px 0;
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto; }
+
+.event_tittle {
+  position: relative;
+  text-align: center; }
+  .event_tittle h2 {
+    font-family: 'Conv_bebas-neue-bold';
+    font-size: 40px; }
+
+.events_nd_main_wrapper {
+  display: flex;
+  max-width: 575px;
+  margin: 7% 0 0 11%; }
+  .events_nd_main_wrapper .event_img img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px; }
+
+.events_nd_info {
+  padding: 0px 15px; }
+  .events_nd_info h3 {
+    font-family: 'Conv_bebas-neue-bold';
+    font-size: 36px;
+    user-select: none; }
+  .events_nd_info span {
+    user-select: none;
+    font-family: 'Conv_bebas-neue-regular';
+    font-size: 23px; }
+  .events_nd_info .event_nd_text {
+    height: 155px;
+    overflow-y: scroll;
+    margin-top: 10px; }
+    .events_nd_info .event_nd_text::-webkit-scrollbar {
+      width: 1px; }
+    .events_nd_info .event_nd_text p, .events_nd_info .event_nd_text span {
+      user-select: none;
+      font-family: 'Conv_bpg_nino_medium_caps';
+      font-weight: bold;
+      font-size: 15px;
+      font-style: italic; }
+
+.book_nd_main_content {
+  max-width: 1400px;
+  width: 90%;
+  background-image: url(../images/paper.jpg);
   height: 100%;
   box-shadow: inset 0px 0px 50px 0px rgba(158, 106, 15, 0.85);
   background-position: center center;
@@ -1800,7 +1863,7 @@ audio {
   .book_nd_main_text p, .book_nd_main_text span {
     font-style: italic;
     text-align: justify;
-    font-size: 19px;
+    font-size: 17px;
     text-indent: 30px;
     color: #352f4f;
     font-family: 'Conv_bpg_nino_mtavruli_normal' !important;
@@ -1870,11 +1933,11 @@ audio {
     cursor: default; }
 
 .bio_nd_text_wrapper {
-  margin-bottom: 155px;
+  padding-bottom: 105px;
   position: relative; }
   .bio_nd_text_wrapper .bio_nd_end_orn {
     position: absolute;
-    bottom: -12%;
+    bottom: 8%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 100; }
