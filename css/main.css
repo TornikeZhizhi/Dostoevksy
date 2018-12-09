@@ -1829,8 +1829,19 @@ audio {
       letter-spacing: 2px; }
 
 /*// biography*/
+.bio_info_sd {
+  text-align: center; }
+  .bio_info_sd h3 {
+    font-family: 'Conv_bebas-neue-bold';
+    color: #6b4618; }
+  .bio_info_sd span {
+    font-family: 'Conv_bpg_nino_mtavruli_normal' !important;
+    color: #6b4618;
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 1px; }
+
 .bio_nd_tittle {
-  padding-left: 5%;
   text-align: center;
   margin-bottom: 30px; }
   .bio_nd_tittle h3 {
@@ -1852,16 +1863,38 @@ audio {
   padding: 100px 0;
   background-position: top;
   background-color: #573d26;
-  background-image: linear-gradient(rgba(10, 10, 10, 0.4), rgba(6, 6, 6, 0.4)), url(../images/test/photo-1524098837898-6b1c101a85f6.jpg); }
+  background-image: linear-gradient(rgba(10, 10, 10, 0.4), rgba(6, 6, 6, 0.4)), url(../images/test/photo-1524098837898-6b1c101a85f6.jpg);
+  /*@keyframes lighter {
+  
+      0% {
+          filter: drop-shadow(3px 3px 3px #f4c582);
+      }
+  
+      100% {
+           filter: drop-shadow(15px 16px 10px #f4c582);
+      }
+  }
+   */ }
   .biography_fluid .biography_nd_tittle {
     text-align: center;
     position: relative; }
     .biography_fluid .biography_nd_tittle img {
-      width: 300px;
+      width: 370px;
       display: block;
-      margin: 66px auto 0; }
+      margin: 66px auto 0;
+      filter: drop-shadow(0px 0px 5px #6b4618); }
     .biography_fluid .biography_nd_tittle .bio_tittle_orn {
       position: relative; }
+      .biography_fluid .biography_nd_tittle .bio_tittle_orn .bio_light_img {
+        position: absolute;
+        top: -58px;
+        left: 50.5%;
+        z-index: 100;
+        transform: translateX(-50%); }
+        .biography_fluid .biography_nd_tittle .bio_tittle_orn .bio_light_img img {
+          width: 183px;
+          animation: lighter 3s infinite;
+          animation-direction: alternate-reverse; }
       .biography_fluid .biography_nd_tittle .bio_tittle_orn .bio_tittle_decor {
         position: absolute;
         top: -229px;
@@ -2121,5 +2154,7 @@ audio {
       font-family: 'Conv_bpg_nino_mtavruli_normal' !important;
       font-size: 19px;
       font-weight: bold; }
+
+/*// Candle*/
 
 /*# sourceMappingURL=main.css.map */

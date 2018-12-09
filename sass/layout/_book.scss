@@ -234,8 +234,26 @@ text-align: center;
 
 /*// biography*/
 
+.bio_info_sd {
+    text-align: center;
+
+    h3 {
+
+         font-family: 'Conv_bebas-neue-bold';
+         color: #6b4618;
+    }
+
+    span {
+              font-family: 'Conv_bpg_nino_mtavruli_normal' !important;
+            color: #6b4618;
+            font-weight: bold;
+            font-size: 23px;
+            letter-spacing: 1px;
+    }
+}
+
 .bio_nd_tittle {
-    padding-left: 5%;
+
     text-align: center;
     margin-bottom: 30px;
 
@@ -273,13 +291,29 @@ text-align: center;
         position: relative;
 
         img {
-         width: 300px;
+             width: 370px;
     display: block;
     margin: 66px auto 0;
+    filter: drop-shadow(0px 0px 5px #6b4618);
         }
 
                 .bio_tittle_orn {
                   position: relative;
+                    .bio_light_img {
+               position: absolute;
+    top: -58px;
+    left: 50.5%;
+    z-index: 100;
+    transform: translateX(-50%);
+
+      img {
+        width: 183px;
+         animation: lighter 3s infinite;
+         animation-direction:alternate-reverse;
+      }
+
+                    }
+
                   .bio_tittle_decor {
                            position: absolute;
     top: -229px;
@@ -308,6 +342,20 @@ text-align: center;
                 font-family: 'Conv_bebas-neue-bold';
              }
       }
+
+
+/*@keyframes lighter {
+
+    0% {
+        filter: drop-shadow(3px 3px 3px #f4c582);
+    }
+
+    100% {
+         filter: drop-shadow(15px 16px 10px #f4c582);
+    }
+}
+ */
+
 
     .biography_nd_main_content {
 
@@ -365,6 +413,7 @@ text-align: center;
          cursor: pointer;
          filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.8));
 
+
         &:hover{
             
         filter: drop-shadow(15px 16px 10px rgba(0,0,0,0.8));
@@ -372,6 +421,7 @@ text-align: center;
         }
      }
 }
+
 
 
 .facts_content {
@@ -671,3 +721,5 @@ text-align: center;
         }
 
 }
+
+/*// Candle*/
