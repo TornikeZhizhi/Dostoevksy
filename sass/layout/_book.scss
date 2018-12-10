@@ -709,8 +709,9 @@ text-align: center;
     overflow-y: scroll;
     padding: 0 10px 0 5px;
         span {
-            font-size: 12px;
-            text-align: justify;
+          font-size: 13px;
+          text-align: justify;
+          word-break: break-all;
         }
 }
 
@@ -776,6 +777,7 @@ text-align: center;
             opacity: .9;
             text-indent: 25px;
             font-weight: bold;
+           
       }
   }
 }

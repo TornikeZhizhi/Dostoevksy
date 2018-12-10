@@ -58,6 +58,7 @@ a {
 
 .btn:hover {
 	border-color: #16a085;
+
 	color: #16a085;
 }
 
@@ -744,7 +745,7 @@ figcaption p {
 }
 
 .page span {
-	margin-top: 20px;
+	margin-top: 10px;
 	display: inline-block;
 }
 
@@ -755,12 +756,20 @@ figcaption p {
     text-align-last: center;
     margin: 0 auto;
 
+     p {
+     	    color: #fff;
+		    padding-right: 10px;
+		    font-size: 14px;
+		    word-break: break-word;
+		    font-family: 'Conv_bpg_nino_medium_caps' !important;
+     }
+
 }
 
 
      .book_infos h4 {
     color: #ebc076;
-    margin: 13px 0;
+    margin: 25px 0 15px;
     font-weight: bold;
     cursor: pointer;
     font-family: 'Conv_bebas-neue-bold';
@@ -775,11 +784,15 @@ figcaption p {
 
 
    .book_text_wrapper  p,.book_text_wrapper  span {
-    color: #fff;
-    padding-right: 10px;
-    font-size: 14px;
-    word-break: break-word;
-    font-family: 'Conv_bpg_nino_medium_caps' !important;
+        color: #fff;
+	    padding-right: 10px;
+	    font-size: 12px;
+	    word-break: break-all;
+	    text-align: justify;
+	    text-align-last: left;
+	    font-family: 'Conv_bpg_nino_medium_caps' !important;
+	     cursor: default;
+            user-select: none;
      }
 
 

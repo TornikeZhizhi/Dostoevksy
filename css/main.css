@@ -356,7 +356,7 @@ audio {
       letter-spacing: 0px;
       color: #000;
       position: relative;
-      margin: 50px 0;
+      margin: 80px 0;
       color: #fff;
       font-family: 'Conv_bebas-neue-bold'; }
       .main_fluid .book_col h3:after {
@@ -765,9 +765,11 @@ audio {
   background-size: cover; }
 
 .char_fluid {
-  background: linear-gradient(to right, rgba(87, 61, 38, 0.9), rgba(87, 61, 38, 0.9)), url("../images/photo-1484415063229-3d6335668531.jpg");
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/test/photo-1474932430478-367dbb6832c1.jpg);
   overflow: hidden;
-  background-size: cover; }
+  /* background-size: cover; */
+  background-size: contain;
+  background-position: center; }
 
 .bio_cont h2 {
   color: #fff;
@@ -804,12 +806,9 @@ audio {
   100% {
     opacity: 1; } }
 .contact_fluid {
-  padding-bottom: 50px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url("../images/photo-1457369804613-52c61a468e7d.jpg");
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/photo-1457369804613-52c61a468e7d.jpg");
-  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/photo-1457369804613-52c61a468e7d.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../images/photo-1457369804613-52c61a468e7d.jpg");
-  padding: 150px 0; }
+  background: linear-gradient(to right bottom, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/test/pexels-photo-602579.jpeg);
+  padding: 50px 0;
+  background-size: 100%; }
   .contact_fluid .cont_cont {
     text-align: center; }
     .contact_fluid .cont_cont .contact_info_box {
@@ -1126,11 +1125,11 @@ audio {
   -webkit-animation-duration: 1s;
   animation-duration: 1s; }
 
-#section2 {
+.section2 {
   position: relative;
   overflow: hidden;
   background: linear-gradient(to right, rgba(87, 61, 38, 0.85), rgba(87, 61, 38, 0.85)), url("../images/photo-1507842217343-583bb7270b66.jpg"); }
-  #section2 #penbox {
+  .section2 #penbox {
     position: absolute;
     right: 10%;
     top: 8%;
@@ -1139,12 +1138,12 @@ audio {
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s; }
-    #section2 #penbox:hover {
+    .section2 #penbox:hover {
       -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
       transform: scale(1.2);
       opacity: .8; }
-    #section2 #penbox img {
+    .section2 #penbox img {
       width: 100%; }
 
 .only_books {
@@ -1153,33 +1152,13 @@ audio {
   background-repeat: no-repeat;
   background-position: center; }
 
-#section6 {
-  position: relative; }
-  #section6 #pigeon {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 100px;
-    cursor: pointer;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
-    width: 150px; }
-    #section6 #pigeon:hover {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      opacity: .8; }
-    #section6 #pigeon img {
-      width: 100%; }
-
-#section3 {
+.section3 {
   position: relative;
   overflow: hidden;
   background: linear-gradient(to right, rgba(87, 61, 38, 0.85), rgba(87, 61, 38, 0.85)), url("../images/photo-1432821596592-e2c18b78144f.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
-  #section3 #bio_move {
+  .section3 #bio_move {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -1191,12 +1170,12 @@ audio {
     width: 150px;
     border-radius: 50%;
     opacity: .6; }
-    #section3 #bio_move:hover {
+    .section3 #bio_move:hover {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
       transform: scale(1.1);
       opacity: .9; }
-    #section3 #bio_move img {
+    .section3 #bio_move img {
       width: 100%;
       border-radius: 50%; }
 
@@ -1337,9 +1316,6 @@ audio {
     display: none; }
 
   #penbox2 {
-    display: none; }
-
-  #pigeon {
     display: none; }
 
   .navbar {
@@ -2149,8 +2125,9 @@ audio {
   overflow-y: scroll;
   padding: 0 10px 0 5px; }
   .book_r_content span {
-    font-size: 12px;
-    text-align: justify; }
+    font-size: 13px;
+    text-align: justify;
+    word-break: break-all; }
 
 .book_r_content::-webkit-scrollbar {
   width: 1px; }

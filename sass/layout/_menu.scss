@@ -462,7 +462,7 @@ audio {
                                 letter-spacing: 0px;
                                 color: #000;
                                 position: relative;
-                                margin: 50px 0;
+                                margin: 80px 0;
                                 color: #fff;
                                 font-family: 'Conv_bebas-neue-bold';
 
@@ -1075,10 +1075,11 @@ audio {
 
 .char_fluid {
  
-    background: linear-gradient(to right, rgba(87, 61, 38, 0.9),rgba(87, 61, 38, 0.9)),
-    url("../images/photo-1484415063229-3d6335668531.jpg");
+    background: linear-gradient(to right, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/test/photo-1474932430478-367dbb6832c1.jpg);
     overflow: hidden;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: contain;
+    background-position: center;
 
 }
 
@@ -1137,16 +1138,12 @@ audio {
 
 
 .contact_fluid {
-        padding-bottom: 50px;
-        background: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,.9)),to(rgba(0,0,0,.9))),
-        url("../images/photo-1457369804613-52c61a468e7d.jpg");
-        background: -webkit-linear-gradient(left, rgba(0,0,0,.9),rgba(0,0,0,.9)),
-        url("../images/photo-1457369804613-52c61a468e7d.jpg");
-        background: -o-linear-gradient(left, rgba(0,0,0,.9),rgba(0,0,0,.9)),
-        url("../images/photo-1457369804613-52c61a468e7d.jpg");
-        background: linear-gradient(to right, rgba(0,0,0,.9),rgba(0,0,0,.9)),
-        url("../images/photo-1457369804613-52c61a468e7d.jpg");
-            padding: 150px 0;
+
+    background: linear-gradient(to right bottom, rgba(87, 61, 38, 0.8),
+     rgba(87, 61, 38, 0.8)), url(../images/test/pexels-photo-602579.jpeg);
+    padding: 50px 0;
+    background-size: 100%;
+
     .cont_cont {
          text-align: center;
 
@@ -1607,7 +1604,7 @@ audio {
 }
 
 
-#section2 {
+.section2 {
     position: relative;
     overflow: hidden;
     background:linear-gradient(to right, rgba(87, 61, 38, 0.85),rgba(87, 61, 38, 0.85)),
@@ -1647,38 +1644,8 @@ audio {
     background-position: center;
 }
 
-#section6 {
 
-    position: relative;
-
-        #pigeon {
-            position: absolute;
-            top: 5%;
-            left: 5%;
-            width: 100px;
-        cursor: pointer;
-        -webkit-transition:.3s;
-        -o-transition:.3s;
-        transition:.3s;
-        width: 150px;
-
-             &:hover {
-
-                -webkit-transform:scale(1.2);
-
-                    -ms-transform:scale(1.2);
-
-                        transform:scale(1.2);
-                opacity: .8;
-            }
-
-            img {
-                width: 100%;
-            }
-        }
-}
-
-#section3 {
+.section3 {
 
     position: relative;
     overflow: hidden;
@@ -1719,7 +1686,7 @@ audio {
 }
 
 
-// resp menu
+
 
 
 .overlay {
@@ -1809,6 +1776,9 @@ audio {
     width: 30px;
     height: 30px;
     background-color: red;
+}
+.backtop {
+
 }
 
 #back2Top {
@@ -1925,9 +1895,7 @@ audio {
  #penbox2 {
     display: none;
   }
-  #pigeon {
-    display: none;
-  }
+ 
 
   .navbar {
     -webkit-box-pack:end;
