@@ -1049,7 +1049,7 @@ audio {
                 -webkit-transition:.3s;
                 -o-transition:.3s;
                 transition:.3s;
-                opacity: .8;
+                word-break: break-all;
                 font-family: 'Conv_bpg_nino_medium_caps' !important;
 
                
@@ -1143,6 +1143,20 @@ audio {
      rgba(87, 61, 38, 0.8)), url(../images/test/pexels-photo-602579.jpeg);
     padding: 50px 0;
     background-size: 100%;
+    position: relative;
+
+    #footer_pegion {
+         position: absolute;
+          top: 10%;
+          left: 10%;
+          z-index: 100;
+           img {
+            width: 100px;
+           }
+    }
+
+
+
 
     .cont_cont {
          text-align: center;

@@ -22,7 +22,7 @@ function scrollHeader() {
 //
 
 
- $(document).ready(function() {
+            $(document).ready(function() {
               var owl = $('.owl-carousel');
               owl.owlCarousel({
                 margin: 0,
@@ -42,6 +42,8 @@ function scrollHeader() {
                 }
               })
             })
+
+
 
 
 
@@ -79,24 +81,22 @@ hideNav()
 
 // mousemove
 
-// function mousemove(){
+function mousemove(){
 
 
-// window.addEventListener("mousemove",function(event){
-// var x = (event.clientX / window.innerWidth *100)/25;
-// var y = (event.clientY / window.innerWidth *100)/15;
+window.addEventListener("mousemove",function(event){
+var x = (event.clientX / window.innerWidth *100)/45;
+var y = (event.clientY / window.innerWidth *100)/55;
 
-// document.getElementById("penbox").style.top = 2+ y + "%";
-// document.getElementById("penbox").style.right = 5+x + "%";
+document.getElementById("footer_pegion").style.top = 2+ y + "%";
+document.getElementById("footer_pegion").style.right = 5+x + "%";
+document.getElementById("footer_pegion").style.top = 7+ x + "%";
+document.getElementById("footer_pegion").style.left = 15+y + "%";
+})
 
-// document.getElementById("pigeon").style.top = 7+ x + "%";
-// document.getElementById("pigeon").style.left = 15+y + "%";
+}
 
-// })
-
-// }
-
-// mousemove()
+mousemove()
 
   
 })

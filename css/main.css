@@ -755,7 +755,7 @@ audio {
         -webkit-transition: .3s;
         -o-transition: .3s;
         transition: .3s;
-        opacity: .8;
+        word-break: break-all;
         font-family: 'Conv_bpg_nino_medium_caps' !important; }
 
 .reviews_nd_fluid {
@@ -808,7 +808,15 @@ audio {
 .contact_fluid {
   background: linear-gradient(to right bottom, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/test/pexels-photo-602579.jpeg);
   padding: 50px 0;
-  background-size: 100%; }
+  background-size: 100%;
+  position: relative; }
+  .contact_fluid #footer_pegion {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 100; }
+    .contact_fluid #footer_pegion img {
+      width: 100px; }
   .contact_fluid .cont_cont {
     text-align: center; }
     .contact_fluid .cont_cont .contact_info_box {
@@ -1930,7 +1938,7 @@ audio {
   background-size: cover; }
 
 .reviews_nd_main_content {
-  max-width: 1200px;
+  max-width: 1300px;
   width: 80%;
   background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15), rgba(87, 61, 38, 0.15)), url("../images/test/rawpixel-594858-unsplash.jpg");
   background-position: center center;
@@ -1955,7 +1963,7 @@ audio {
 
 .reviews_nd_main_text {
   padding: 45px 0 100px;
-  max-width: 1000px;
+  max-width: 1100px;
   width: 90%;
   margin: 0 auto; }
   .reviews_nd_main_text p, .reviews_nd_main_text span {
@@ -1966,6 +1974,10 @@ audio {
     font-family: 'Conv_bpg_nino_medium_caps' !important; }
     .reviews_nd_main_text p:first-letter, .reviews_nd_main_text span:first-letter {
       font-size: 23px; }
+
+.main_tittle img {
+  width: 80px;
+  cursor: pointer; }
 
 .revies_nd_main_img {
   text-align: center;
@@ -1981,7 +1993,11 @@ audio {
     letter-spacing: 4px;
     margin-top: 10px;
     user-select: none;
-    font-family: "Conv_bebas-neue-regular"; }
+    font-family: 'Conv_bebas-neue-regular'; }
+  .revies_nd_main_img span {
+    font-family: 'Conv_bebas-neue-regular';
+    font-weight: bold;
+    font-size: 22px; }
 
 .reviews_dec_bott {
   position: absolute;
@@ -2004,7 +2020,8 @@ audio {
     text-align: center;
     font-weight: bold;
     font-family: arial;
-    margin-top: 10px; }
+    margin-top: 10px;
+    cursor: default; }
   .characters_fluid .review_cont .reviews_box .reviews_img {
     margin: 0 auto; }
 
@@ -2028,13 +2045,14 @@ audio {
   background-repeat: no-repeat;
   background-size: cover; }
   .characters_nd_fluid .characters_nd_main_content {
-    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), url(../images/test/rawpixel-594858-unsplash.jpg);
+    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), url(../images/test/ruka-02.jpg);
     background-size: 100%;
     background-position: top;
-    max-width: 1200px;
+    max-width: 1300px;
     width: 90%;
     margin: 0 auto;
-    padding: 80px 0px; }
+    padding: 80px 0px;
+    border-radius: 5px; }
   .characters_nd_fluid .characters_nd_main_img {
     text-align: center; }
     .characters_nd_fluid .characters_nd_main_img img {
@@ -2050,15 +2068,16 @@ audio {
     font-size: 25px; }
   .characters_nd_fluid .characters_nd_main_text {
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 40px auto 0; }
     .characters_nd_fluid .characters_nd_main_text p, .characters_nd_fluid .characters_nd_main_text span {
       font-family: 'Conv_bpg_nino_medium_caps' !important;
-      font-size: 19px;
+      font-size: 18px;
       color: #000;
-      opacity: .9;
       text-indent: 25px;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: justify;
+      word-break: break-all; }
 
 .facts_main_tittle {
   text-align: center;
