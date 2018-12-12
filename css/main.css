@@ -705,7 +705,7 @@ audio {
     .review_cont .reviews_box a {
       font-style: italic;
       display: inline-block;
-      color: #b38534;
+      color: #ebc076;
       margin-top: 10px;
       font-family: 'Conv_bebas-neue-bold'; }
       .review_cont .reviews_box a .fas {
@@ -756,6 +756,7 @@ audio {
         -o-transition: .3s;
         transition: .3s;
         word-break: break-all;
+        user-select: none;
         font-family: 'Conv_bpg_nino_medium_caps' !important; }
 
 .reviews_nd_fluid {
@@ -1680,7 +1681,8 @@ audio {
     letter-spacing: 2px;
     color: #40264b;
     margin-top: 5px;
-    font-family: 'Conv_bebas-neue-bold'; }
+    font-family: 'Conv_bebas-neue-bold';
+    user-select: none; }
   .book_nd_tittle .book_nd_ornament {
     position: absolute;
     top: 40px;
@@ -1739,7 +1741,8 @@ audio {
     text-indent: 30px;
     color: #352f4f;
     font-family: 'Conv_bpg_nino_mtavruli_normal' !important;
-    font-weight: bold; }
+    font-weight: bold;
+    user-select: none; }
     .book_nd_main_text p:first-letter, .book_nd_main_text span:first-letter {
       font-size: 24px;
       font-weight: bold; }
@@ -2008,25 +2011,31 @@ audio {
   .reviews_dec_bott img {
     width: 285px; }
 
+.page h4 {
+  font-family: 'Conv_bebas-neue-regular';
+  font-size: 17px;
+  color: #000; }
+
 /*// charackters*/
 .characters_fluid {
-  background: linear-gradient(to right, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/test/photo-1463143296037-46790ff95a7e.jpg);
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.9), rgba(148, 125, 105, 0.9)), url(../images/test/aerial-belief-bible-1437872.jpg);
   overflow: hidden;
   background-position: center;
   background-size: cover; }
   .characters_fluid h4 {
-    color: #b38534;
+    color: #ebc076;
     font-size: 17px;
     text-align: center;
     font-weight: bold;
     font-family: arial;
     margin-top: 10px;
-    cursor: default; }
+    cursor: default;
+    user-select: none; }
   .characters_fluid .review_cont .reviews_box .reviews_img {
     margin: 0 auto; }
 
 .book_r_content {
-  height: calc(100% - 20px);
+  height: calc(100% - 45px);
   overflow-y: scroll;
   padding: 0 10px 0 5px; }
   .book_r_content span {

@@ -968,7 +968,7 @@ audio {
                   a {
                 font-style: italic;
                 display: inline-block;
-                color: #b38534;
+                color: #ebc076;
                 margin-top: 10px;
                 font-family: 'Conv_bebas-neue-bold';
 
@@ -1050,6 +1050,7 @@ audio {
                 -o-transition:.3s;
                 transition:.3s;
                 word-break: break-all;
+                user-select: none;
                 font-family: 'Conv_bpg_nino_medium_caps' !important;
 
                
