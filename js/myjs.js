@@ -143,5 +143,11 @@ $(document).ready(function() {
 });
 
 
+$(".fa_icons span").eq(0).click(function(){
+
+  window.open("https://www.facebook.com/DostoevskyGeo","_blank")
+})
+
+
 // particle
 

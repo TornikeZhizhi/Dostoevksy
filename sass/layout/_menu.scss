@@ -271,6 +271,7 @@ audio {
                                 color: #fff;
                                 margin-top: 0;
                                 font-family: 'Conv_bebas-neue-bold';
+                                user-select:none;
                             }
 
                             .chilhood {
@@ -295,7 +296,8 @@ audio {
 
                                     h3 {
                                     font-family: 'Conv_bebas-neue-bold';
-                                        color: #ebc076;           
+                                        color: #ebc076;
+                                        user-select:none;           
 
                                    
                                                              }
@@ -316,6 +318,7 @@ audio {
                                          font-family: 'Conv_bpg_nino_medium_caps' !important;
                                         color: #fff;
                                             opacity: .8;
+                                            user-select:none;
 
                                 }
                         }   
@@ -858,6 +861,7 @@ audio {
                          transition: .4s;
                          text-transform: capitalize;
                          font-family: 'Conv_bebas-neue-regular';
+                         user-select: none;
          
 
                      &:hover{
@@ -875,6 +879,7 @@ audio {
                     cursor: default;
                     display: block;
                     word-spacing: 5px;
+                    user-select: none;
                     }
                                     
             }
@@ -1197,8 +1202,16 @@ audio {
                         font-style: italic;
                         cursor: default;
 
+                        &:first-child {
+                            cursor: pointer;
+                        }
 
-                        .fas {
+                        &:last-child {
+                            margin-left: 5px;
+                        }
+
+
+                        .fas, .fab {
                             color: #ebc076;;
                          font-size: 37px;
                             display: inline-block;

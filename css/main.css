@@ -240,7 +240,8 @@ audio {
         margin: 30px 0;
         color: #fff;
         margin-top: 0;
-        font-family: 'Conv_bebas-neue-bold'; }
+        font-family: 'Conv_bebas-neue-bold';
+        user-select: none; }
       .main_fluid .bio_info_col .bio_container .chilhood {
         margin: 30px 0; }
         .main_fluid .bio_info_col .bio_container .chilhood h3 {
@@ -255,7 +256,8 @@ audio {
         margin: 30px 0; }
         .main_fluid .bio_info_col .bio_container .ed_carr h3 {
           font-family: 'Conv_bebas-neue-bold';
-          color: #ebc076; }
+          color: #ebc076;
+          user-select: none; }
       .main_fluid .bio_info_col .bio_container .home_bio_wrapper {
         overflow-y: scroll;
         height: 170px; }
@@ -265,7 +267,8 @@ audio {
           font-size: 14px;
           font-family: 'Conv_bpg_nino_medium_caps' !important;
           color: #fff;
-          opacity: .8; }
+          opacity: .8;
+          user-select: none; }
       .main_fluid .bio_info_col .bio_container a {
         font-size: 20px;
         color: #ebc076;
@@ -626,7 +629,8 @@ audio {
     display: inline-block;
     transition: .4s;
     text-transform: capitalize;
-    font-family: 'Conv_bebas-neue-regular'; }
+    font-family: 'Conv_bebas-neue-regular';
+    user-select: none; }
     .fraz_fluid h5:hover {
       text-shadow: 2px 2px 16px #000000b5;
       transform: translateY(-5px); }
@@ -636,7 +640,8 @@ audio {
     font-family: 'Conv_bebas-neue-bold';
     cursor: default;
     display: block;
-    word-spacing: 5px; }
+    word-spacing: 5px;
+    user-select: none; }
 
 .owl-carousel.owl-drag .owl-item {
   display: -webkit-box;
@@ -848,7 +853,11 @@ audio {
         font-size: 21px;
         font-style: italic;
         cursor: default; }
-        .contact_fluid .cont_cont .fa_icons span .fas {
+        .contact_fluid .cont_cont .fa_icons span:first-child {
+          cursor: pointer; }
+        .contact_fluid .cont_cont .fa_icons span:last-child {
+          margin-left: 5px; }
+        .contact_fluid .cont_cont .fa_icons span .fas, .contact_fluid .cont_cont .fa_icons span .fab {
           color: #ebc076;
           font-size: 37px;
           display: inline-block;
@@ -1565,9 +1574,9 @@ audio {
 .events_main_content {
   max-width: 1400px;
   width: 80%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../images/test/rawpixel-594858-unsplash.jpg);
+  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), url(../images/ruka-02.jpg);
+  background-size: 100%;
   height: 100%;
-  /* box-shadow: inset 0px 0px 50px 0px rgba(158, 106, 15, 0.85); */
   background-position: center center;
   margin: 0 auto;
   background-size: cover;
@@ -1586,7 +1595,8 @@ audio {
   text-align: center; }
   .event_tittle h2 {
     font-family: 'Conv_bebas-neue-bold';
-    font-size: 40px; }
+    font-size: 40px;
+    user-select: none; }
 
 .events_nd_main_wrapper {
   display: flex;
@@ -1721,9 +1731,11 @@ audio {
     letter-spacing: 0px;
     color: #7d3920;
     font-family: 'Conv_bebas-neue-bold';
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    user-select: none; }
 
 .facts_nd_info p, .facts_nd_info span {
+  user-select: none;
   font-style: italic;
   text-align: justify;
   font-size: 19px;
@@ -1943,11 +1955,11 @@ audio {
 .reviews_nd_main_content {
   max-width: 1300px;
   width: 80%;
-  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15), rgba(87, 61, 38, 0.15)), url("../images/test/rawpixel-594858-unsplash.jpg");
+  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15), rgba(87, 61, 38, 0.15)), url("../images/ruka-02.jpg");
   background-position: center center;
   margin: 0 auto;
   border-radius: 5px;
-  background-size: cover;
+  background-size: 100%;
   padding: 50px 0px;
   position: relative; }
   .reviews_nd_main_content .reviews_dec_img {
@@ -1974,7 +1986,8 @@ audio {
     font-weight: bold;
     font-size: 19px;
     text-indent: 30px;
-    font-family: 'Conv_bpg_nino_medium_caps' !important; }
+    font-family: 'Conv_bpg_nino_medium_caps' !important;
+    user-select: none; }
     .reviews_nd_main_text p:first-letter, .reviews_nd_main_text span:first-letter {
       font-size: 23px; }
 
@@ -2000,7 +2013,8 @@ audio {
   .revies_nd_main_img span {
     font-family: 'Conv_bebas-neue-regular';
     font-weight: bold;
-    font-size: 22px; }
+    font-size: 22px;
+    user-select: none; }
 
 .reviews_dec_bott {
   position: absolute;
@@ -2014,7 +2028,8 @@ audio {
 .page h4 {
   font-family: 'Conv_bebas-neue-regular';
   font-size: 17px;
-  color: #000; }
+  color: #000;
+  user-select: none; }
 
 /*// charackters*/
 .characters_fluid {
@@ -2041,7 +2056,8 @@ audio {
   .book_r_content span {
     font-size: 13px;
     text-align: justify;
-    word-break: break-all; }
+    word-break: break-all;
+    user-select: none; }
 
 .book_r_content::-webkit-scrollbar {
   width: 1px; }
@@ -2054,7 +2070,7 @@ audio {
   background-repeat: no-repeat;
   background-size: cover; }
   .characters_nd_fluid .characters_nd_main_content {
-    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), url(../images/test/ruka-02.jpg);
+    background-image: linear-gradient(to right, rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), url(../images/ruka-02.jpg);
     background-size: 100%;
     background-position: top;
     max-width: 1300px;
@@ -2070,9 +2086,11 @@ audio {
   .characters_nd_fluid h4 {
     font-family: 'Conv_bebas-neue-bold';
     margin-top: 20px;
-    font-size: 34px; }
+    font-size: 34px;
+    user-select: none; }
   .characters_nd_fluid span {
     color: #000;
+    user-select: none;
     font-family: 'Conv_BPG_Glaho' !important;
     font-size: 25px; }
   .characters_nd_fluid .characters_nd_main_text {
@@ -2086,7 +2104,8 @@ audio {
       text-indent: 25px;
       font-weight: bold;
       text-align: justify;
-      word-break: break-all; }
+      word-break: break-all;
+      user-select: none; }
 
 .facts_main_tittle {
   text-align: center;
