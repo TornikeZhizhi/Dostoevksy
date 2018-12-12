@@ -593,12 +593,13 @@ text-align: center;
     width: 80%;
     background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15),rgba(87, 61, 38, 0.15)),
     url("../images/ruka-02.jpg");
-    background-position: center center;
+    background-position: top;
     margin: 0 auto;
     border-radius: 5px;
     background-size: 100%;
     padding: 50px 0px;
     position: relative;
+
 
 
       .reviews_dec_img {
@@ -776,8 +777,10 @@ text-align: center;
     text-align: center;
 
     img {
-     width: 200px;
-     border-radius: 50%;
+        width: 200px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
 
     }
   }
@@ -793,8 +796,9 @@ text-align: center;
   span {
     color: #000;
     user-select: none;
-    font-family: 'Conv_BPG_Glaho' !important;
     font-size: 25px;
+    font-family: 'Conv_bpg_nino_medium_caps' !important;
+    font-weight: bold;
   }
 
   .characters_nd_main_text {
