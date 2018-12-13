@@ -892,4 +892,38 @@ text-align: center;
 
 }
 
+
+.lighter {
+    position: absolute;
+    top: 26%;
+    left: 55%;
+    z-index: 1000;
+    border-radius: 50%;
+
+
+     img {
+           width: 8px !important;
+    filter: unset !important;
+    animation: light 5s infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    height: 23px;
+    margin: 0 !important;
+    border-radius: 50%;
+     }
+}
+
+
+@keyframes light {
+    0% {
+        box-shadow: 0px 0px 0px 0px #fcebb1;
+    }
+
+
+    100% {
+        box-shadow: 0px -5px 20px 12px #fcebb1;
+    }
+}
+
+
 /*// Candle*/
