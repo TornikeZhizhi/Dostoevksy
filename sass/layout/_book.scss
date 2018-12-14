@@ -209,6 +209,26 @@
       }
 }
 
+.language_box {
+      height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    span {
+      font-family: 'Conv_bebas-neue-bold';
+      color: #fff; 
+      cursor: pointer;
+
+      &:not(:last-child){
+        margin-right:10px;
+      }
+
+       &.active {
+        color: #ebc076;
+       }
+    }
+}
 .fact_nd_tittle {
     position: relative;
     text-align: center;

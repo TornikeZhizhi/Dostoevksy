@@ -1731,16 +1731,45 @@ audio {
     background: #806230; 
     border-radius: 10px;
 }
+.language_box_n {
+    display: none;
+}
 
+@media screen and (max-width: 1366px) {
+
+.main_fluid .menu_col nav ul li a{
+    font-size: 14px;
+}
+
+.main_fluid .main_right_col .info_box {
+    width: 35%;
+}
+
+}
 
 
 
 @media screen and (max-width: 992px) {
 
 
+.language_box {
+    display: none !important;
+}
+
+
+.language_box_n {
+    display: flex;
+}
+
+
     .fraz_fluid span {
     font-size: 24px;
 
+}
+
+.main_fluid .main_right_col .info_box {
+    
+    width: 65%;
 }
 
 
