@@ -307,6 +307,7 @@ text-align: center;
             font-family: 'Conv_bpg_nino_mtavruli_normal' !important;
             font-weight: bold;
             user-select: none;
+            word-break: break-all;
 
             &:first-letter {
                 font-size:24px;
@@ -942,7 +943,8 @@ text-align: center;
 
 
     100% {
-        box-shadow: 0px -5px 20px 12px #fcebb1;
+       /* box-shadow: 0px -5px 20px 12px #fcebb1;*/
+       box-shadow: 0px -17px 20px 15px #fcebb1;
     }
 }
 

@@ -1730,6 +1730,32 @@ audio {
 
 
 @media screen and (max-width: 992px) {
+    .book_nd_main_content .book_nd_main_content_bottom_bg img {
+    max-height: 60px;
+}
+
+.book_nd_tittle .book_nd_img {
+    width: 145px;
+    height: 205px;
+ 
+}
+.book_nd_tittle h2 {
+    font-size: 25px;
+
+}
+.book_nd_main_content {
+ 
+    padding: 50px 0px 65px;
+  
+}
+
+    .book_nd_main_text {
+        padding:100px 0;
+    }
+
+    .book_nd_main_text p, .book_nd_main_text span {
+        font-size: 13px;
+    }
 
     .contact_fluid .cont_cont h2 {
     margin-top: 25px;
