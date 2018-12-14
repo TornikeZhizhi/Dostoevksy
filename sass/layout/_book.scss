@@ -450,6 +450,7 @@ text-align: center;
 
                 .bio_tittle_orn {
                   position: relative;
+                  display: inline-block;
                     .bio_light_img {
                position: absolute;
     top: -58px;
@@ -467,7 +468,7 @@ text-align: center;
 
                   .bio_tittle_decor {
                            position: absolute;
-    top: -229px;
+    top: -196px;
     left: 50%;
     z-index: 100;
     transform: translateX(-50%);
@@ -915,8 +916,8 @@ text-align: center;
 
 .lighter {
     position: absolute;
-    top: 26%;
-    left: 55%;
+    top: 37%;
+    left: 254px;
     z-index: 1000;
     border-radius: 50%;
 

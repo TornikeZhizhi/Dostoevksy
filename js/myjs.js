@@ -28,7 +28,10 @@ function scrollHeader() {
                 margin: 0,
                 nav: true,
                 loop: true,
-                smartSpeed: 650,
+                autoplay:true,
+                autoplayTimeout:4000,
+                autoplayHoverPause:true,
+                smartSpeed: 850,
                 responsive: {
                   0: {
                     items: 1
