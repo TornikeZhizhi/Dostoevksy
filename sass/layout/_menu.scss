@@ -1730,6 +1730,86 @@ audio {
 
 
 @media screen and (max-width: 992px) {
+
+    .biography_fluid .biography_nd_main_text p, .biography_fluid .biography_nd_main_text span {
+  
+    font-size: 13px;
+
+    &:first-letter {
+        font-size: 14px;
+    }
+   
+}
+.bio_nd_text_wrapper .bio_nd_end_orn {
+    
+    bottom: 3%;
+}
+
+.biography_fluid .biography_nd_main_content {
+
+    padding: 30px 0px 0px;
+   
+}
+
+.biography_fluid .biography_nd_tittle img {
+    width: 240px;
+    margin: 10px auto 0;
+
+}
+
+.bio_nd_end_orn img {
+    width: 200px;
+}
+
+.biography_fluid .biography_nd_tittle h2 {
+    font-size: 28px;
+    margin: 30px 0px 30px;
+  
+}
+.biography_img {
+    
+    top: 3%;
+
+}
+.biography_img img {
+
+    width: 68px;
+  
+}
+.candle {
+
+    top: 6.5%;
+    transform: scale(0.15, 0.13);
+    left: 151px;
+
+}
+
+.bio_info_sd h3 {
+  
+    font-size: 23px;
+}
+
+.bio_info_sd span {
+  
+    font-size: 16px;
+  
+}
+.biography_fluid .biography_nd_main_text {
+    padding: 40px 0 0px;
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.biography_fluid .biography_nd_tittle .bio_tittle_orn .bio_tittle_decor {
+    top: -118px;
+}
+.biography_fluid .biography_nd_tittle .bio_tittle_orn .bio_tittle_decor img {
+    width: 204px;
+}
+
+
+
     .book_nd_main_content .book_nd_main_content_bottom_bg img {
     max-height: 60px;
 }
