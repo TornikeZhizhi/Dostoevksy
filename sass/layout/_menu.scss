@@ -608,7 +608,7 @@ audio {
             .main_tittle {
                 
                     left: 50%;
-                    padding: 10px 30px;
+                    padding: 10px 0px;
 
 
                         h1 {
@@ -1743,6 +1743,11 @@ audio {
 .bio_nd_text_wrapper .bio_nd_end_orn {
     
     bottom: 3%;
+}
+
+.main_fluid .menu_col .main_tittle {
+    left: 50%;
+    padding: 10px 0px;
 }
 
 .biography_fluid .biography_nd_main_content {
