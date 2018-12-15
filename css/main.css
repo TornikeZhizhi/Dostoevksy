@@ -355,25 +355,14 @@ html, body {
   position: relative;
   width: 100%;
   padding: 100px 0;
-  background-image: url(../images/background_book.jpg);
-  /*@keyframes lighter {
-  
-      0% {
-          filter: drop-shadow(3px 3px 3px #f4c582);
-      }
-  
-      100% {
-           filter: drop-shadow(15px 16px 10px #f4c582);
-      }
-  }
-   */ }
+  background-image: url(../images/background_book.jpg); }
   .biography_fluid .biography_nd_tittle {
     text-align: center;
     position: relative; }
     .biography_fluid .biography_nd_tittle img {
       width: 370px;
       display: block;
-      margin: 66px auto 0;
+      margin: 15px auto 0;
       filter: drop-shadow(0px 0px 5px #6b4618); }
     .biography_fluid .biography_nd_tittle .bio_tittle_orn {
       position: relative;
@@ -390,7 +379,7 @@ html, body {
           animation-direction: alternate-reverse; }
       .biography_fluid .biography_nd_tittle .bio_tittle_orn .bio_tittle_decor {
         position: absolute;
-        top: -196px;
+        top: -139px;
         left: 50%;
         z-index: 100;
         transform: translateX(-50%); }
@@ -417,7 +406,7 @@ html, body {
     padding: 50px 0px 140px;
     position: relative; }
   .biography_fluid .biography_nd_main_text {
-    padding: 100px 0 55px;
+    padding: 70px 0 55px;
     max-width: 1100px;
     width: 90%;
     margin: 0 auto; }
@@ -706,8 +695,8 @@ html, body {
   position: absolute;
   -webkit-animation: blink .1s infinite;
   animation: blink .1s infinite;
-  top: 24%;
-  transform: scale(0.21, 0.22);
+  top: 15.5%;
+  transform: scale(0.23, 0.22);
   left: 242px;
   z-index: 100; }
 
@@ -716,8 +705,8 @@ html, body {
   height: 150px;
   margin: 0px auto;
   position: relative;
-  -webkit-animation: move 3s infinite, move-left 3s infinite;
-  animation: move 3s infinite, move-left 3s infinite;
+  -webkit-animation: move 2.5s infinite, move-left 2.5s infinite;
+  animation: move 2.5s infinite, move-left 2.5s infinite;
   -webkit-transform-origin: 50% 90%;
   transform-origin: 50% 90%; }
 
