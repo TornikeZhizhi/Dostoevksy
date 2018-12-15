@@ -260,7 +260,8 @@ html, body {
   font-style: italic;
   text-align: justify;
   font-size: 19px;
-  text-indent: 30px; }
+  text-indent: 30px;
+  word-break: break-all; }
 
 .book_nd_main_text {
   padding: 100px 0;
@@ -462,12 +463,11 @@ html, body {
   padding: 100px 0;
   background-image: linear-gradient(to right, rgba(87, 61, 38, 0.45), rgba(87, 61, 38, 0.45)), url("../images/test/photo-1524098837898-6b1c101a85f6.jpg");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: 100%; }
 
 .reviews_nd_main_content {
   max-width: 1300px;
-  width: 80%;
+  width: 90%;
   background-image: linear-gradient(to right, rgba(87, 61, 38, 0.15), rgba(87, 61, 38, 0.15)), url("../images/ruka-02.jpg");
   background-position: top;
   margin: 0 auto;
@@ -500,7 +500,8 @@ html, body {
     font-size: 19px;
     text-indent: 30px;
     font-family: 'Conv_bpg_nino_medium_caps' !important;
-    user-select: none; }
+    user-select: none;
+    word-break: break-all; }
     .reviews_nd_main_text p:first-letter, .reviews_nd_main_text span:first-letter {
       font-size: 23px; }
 
@@ -546,7 +547,7 @@ html, body {
 
 /*// charackters*/
 .characters_fluid {
-  background: linear-gradient(to right, rgba(87, 61, 38, 0.9), rgba(148, 125, 105, 0.9)), url(../images/test/aerial-belief-bible-1437872.jpg);
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.9), rgba(87, 61, 38, 0.9)), url(../images/test/aerial-belief-bible-1437872.jpg);
   overflow: hidden;
   background-position: center;
   background-size: cover; }
@@ -580,8 +581,7 @@ html, body {
   padding: 100px 0;
   background-image: linear-gradient(to right, rgba(87, 61, 38, 0.75), rgba(87, 61, 38, 0.75)), url(../images/test/background-blank-canvas-877700.jpg);
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: 100%; }
   .characters_nd_fluid .characters_nd_main_content {
     background-image: linear-gradient(to right, rgba(87, 61, 38, 0.2), rgba(87, 61, 38, 0.2)), url(../images/ruka-02.jpg);
     background-size: 100%;
@@ -683,20 +683,14 @@ html, body {
     margin: 0 !important;
     border-radius: 50%; }
 
-@keyframes light {
-  0% {
-    box-shadow: 0px 0px 0px 0px #fcebb1; }
-  100% {
-    /* box-shadow: 0px -5px 20px 12px #fcebb1;*/
-    box-shadow: 0px -17px 20px 15px #fcebb1; } }
 /*// Candle*/
 .candle {
   width: 34px;
   position: absolute;
   -webkit-animation: blink .1s infinite;
   animation: blink .1s infinite;
-  top: 15.5%;
-  transform: scale(0.23, 0.22);
+  top: 16.5%;
+  transform: scale(0.22, 0.17);
   left: 242px;
   z-index: 100; }
 
@@ -1828,7 +1822,7 @@ audio {
     align-items: center;
     text-align: left; }
     .overlay-content ul li {
-      width: 240px; }
+      width: 215px; }
       .overlay-content ul li a i {
         display: inline-block;
         margin-right: 15px; }
@@ -1939,6 +1933,94 @@ audio {
   .main_fluid .main_right_col .info_box a span {
     font-size: 18px; } }
 @media screen and (max-width: 992px) {
+  .fact_nd_tittle h2 {
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin: 15px 0 10px; }
+
+  .facts_nd_main_text .facts_decor_top img {
+    width: 250px; }
+
+  .facts_nd_main_text .facts_decor_top {
+    top: 103%; }
+
+  .facts_tittle h3 {
+    font-size: 21px;
+    margin-bottom: 5px; }
+
+  .facts_nd_main_text p, .facts_nd_main_text span {
+    font-size: 13px;
+    text-indent: 15px; }
+    .facts_nd_main_text p:first-letter, .facts_nd_main_text span:first-letter {
+      font-size: 14px; }
+
+  .fact_nd_tittle img {
+    width: 130px; }
+
+  .facts_nd_main_text {
+    margin: 30px auto 75px; }
+
+  .fact_nd_tittle .book_nd_ornament {
+    top: -40px;
+    left: 51%; }
+
+  .fact_nd_tittle .book_nd_ornament img {
+    width: 250px; }
+
+  .reviews_nd_nd_fluid {
+    padding: 100px 0 50px; }
+
+  .revies_nd_main_img img {
+    width: 145px;
+    height: 190px; }
+
+  .reviews_nd_main_text {
+    padding: 23px 0 35px; }
+
+  .reviews_dec_bott img {
+    width: 195px; }
+
+  .revies_nd_main_img h3 {
+    font-size: 27px;
+    letter-spacing: 2px; }
+
+  .reviews_nd_main_text p, .reviews_nd_main_text span {
+    font-size: 13px; }
+    .reviews_nd_main_text p:first-letter, .reviews_nd_main_text span:first-letter {
+      font-size: 14px; }
+
+  .characters_nd_fluid .characters_nd_main_img img {
+    width: 150px;
+    height: 200px; }
+
+  .review_cont .reviews_box .review_readmore a {
+    font-size: 16px; }
+
+  .review_cont .reviews_box .review_text {
+    padding: 0px 5px; }
+
+  .review_cont .reviews_box .review_readmore {
+    top: 71%;
+    right: 13px; }
+
+  .characters_fluid h4 {
+    font-size: 15px; }
+
+  .review_cont .reviews_box .review_text p, .review_cont .reviews_box .review_text span {
+    font-size: 13px; }
+
+  .characters_nd_fluid {
+    padding: 100px 0 50px; }
+
+  .characters_nd_fluid h4 {
+    font-size: 24px; }
+
+  .characters_nd_fluid span {
+    font-size: 19px; }
+
+  .characters_nd_fluid .characters_nd_main_text p, .characters_nd_fluid .characters_nd_main_text span {
+    font-size: 14px; }
+
   .biography_fluid .biography_nd_main_text p, .biography_fluid .biography_nd_main_text span {
     font-size: 13px; }
     .biography_fluid .biography_nd_main_text p:first-letter, .biography_fluid .biography_nd_main_text span:first-letter {
@@ -1949,7 +2031,7 @@ audio {
 
   .main_fluid .menu_col .main_tittle {
     left: 50%;
-    padding: 10px 0px; }
+    padding: 10px 0px !important; }
 
   .biography_fluid .biography_nd_main_content {
     padding: 30px 0px 0px; }
@@ -2008,7 +2090,7 @@ audio {
     padding: 50px 0px 65px; }
 
   .book_nd_main_text {
-    padding: 100px 0; }
+    padding: 30px 0; }
 
   .book_nd_main_text p, .book_nd_main_text span {
     font-size: 13px; }
@@ -2107,7 +2189,8 @@ audio {
     color: #000; }
 
   .fraz_fluid h5 {
-    font-size: 28px; }
+    font-size: 28px;
+    padding: 0 0; }
 
   .main_fluid .bio_coll .bio_img_col .bio_img {
     width: 360px;
@@ -2177,8 +2260,8 @@ audio {
 
   .overlay .closebtn {
     position: absolute;
-    top: -10px;
-    right: 69px;
+    top: 6px;
+    right: 31px;
     font-size: 60px; }
 
   .overlay a {

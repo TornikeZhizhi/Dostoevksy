@@ -1558,7 +1558,7 @@ audio {
 
                 li {
 
-                        width: 240px;
+                        width: 215px;
                     a {
                         i {
                             display: inline-block;
@@ -1731,6 +1731,137 @@ audio {
 
 @media screen and (max-width: 992px) {
 
+    .fact_nd_tittle h2 {
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin: 15px 0 10px;
+  
+}
+.facts_nd_main_text .facts_decor_top img {
+    width: 250px;
+}
+
+.facts_nd_main_text .facts_decor_top {
+    top: 103%;
+}
+
+.facts_tittle h3 {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.facts_nd_main_text p, .facts_nd_main_text span {
+    font-size: 13px;
+    text-indent: 15px;
+
+    &:first-letter {
+        font-size: 14px;
+    }
+}
+
+
+.fact_nd_tittle img {
+    width: 130px;
+}
+.facts_nd_main_text {
+
+    margin: 30px auto 75px;
+
+}
+
+.fact_nd_tittle .book_nd_ornament {
+  
+    top: -40px;
+    left: 51%;
+   
+}
+
+    .fact_nd_tittle .book_nd_ornament img {
+        width: 250px;
+    }
+
+    .reviews_nd_nd_fluid {
+        padding: 100px 0 50px;
+    }
+
+    .revies_nd_main_img img {
+
+    width: 145px;
+    height: 190px;
+ 
+}
+
+.reviews_nd_main_text {
+    padding: 23px 0 35px;
+
+}
+
+.reviews_dec_bott img {
+    width: 195px;
+}
+
+.revies_nd_main_img h3 {
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.reviews_nd_main_text p, .reviews_nd_main_text span {
+    font-size: 13px;
+
+    &:first-letter {
+        font-size: 14px;
+    }
+}
+
+    .characters_nd_fluid .characters_nd_main_img img {
+    width: 150px;
+    height: 200px;
+    
+}
+.review_cont .reviews_box .review_readmore a {
+    font-size: 16px;
+}
+
+.review_cont .reviews_box .review_text {
+
+    padding: 0px 5px;
+  
+}
+.review_cont .reviews_box .review_readmore {
+ 
+
+    top: 71%;
+    right: 13px;
+ 
+}
+
+.characters_fluid h4 {
+    font-size: 15px;
+}
+
+.review_cont .reviews_box .review_text p, .review_cont .reviews_box .review_text span{
+    font-size: 13px;
+}
+
+.characters_nd_fluid {
+    padding:100px 0 50px;
+}
+
+.characters_nd_fluid h4 {
+ 
+    font-size: 24px;
+  
+}
+
+.characters_nd_fluid span {
+
+    font-size: 19px;
+}
+
+.characters_nd_fluid .characters_nd_main_text p, .characters_nd_fluid .characters_nd_main_text span{
+    font-size: 14px;
+}
+
     .biography_fluid .biography_nd_main_text p, .biography_fluid .biography_nd_main_text span {
   
     font-size: 13px;
@@ -1747,7 +1878,7 @@ audio {
 
 .main_fluid .menu_col .main_tittle {
     left: 50%;
-    padding: 10px 0px;
+    padding: 10px 0px !important;
 }
 
 .biography_fluid .biography_nd_main_content {
@@ -1835,7 +1966,7 @@ audio {
 }
 
     .book_nd_main_text {
-        padding:100px 0;
+        padding:30px 0;
     }
 
     .book_nd_main_text p, .book_nd_main_text span {
@@ -1978,6 +2109,7 @@ audio {
 }
 .fraz_fluid h5 {
     font-size: 28px;
+    padding: 0 0;
 
   }
 
@@ -2076,8 +2208,8 @@ audio {
 }
 .overlay .closebtn {
     position: absolute;
-    top: -10px;
-    right: 69px;
+    top: 6px;
+    right: 31px;
     font-size: 60px;
 }
 .overlay a {
