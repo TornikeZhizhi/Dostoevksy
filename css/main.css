@@ -694,7 +694,7 @@ html, body {
   -webkit-animation: blink .1s infinite;
   animation: blink .1s infinite;
   top: 16.5%;
-  transform: scale(0.22, 0.17);
+  transform: scale(0.2, 0.17);
   left: 242px;
   z-index: 100; }
 
