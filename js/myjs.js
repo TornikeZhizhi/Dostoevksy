@@ -86,3 +86,29 @@ $(".fa_icons span").eq(0).click(function(){
 
 // particle
 
+// scroll animes
+
+  $(document).ready(function(){
+
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          // console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+  
+  })
+   
+
+// Language
+
+$(document).ready(function(){
+  $(".language_box span").on("click",function(){
+    $(".language_box span").removeClass("active");
+    $(this).addClass("active");
+  })
+})

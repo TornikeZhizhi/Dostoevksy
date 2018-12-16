@@ -221,7 +221,8 @@ html, body {
   .language_box span {
     font-family: 'Conv_bebas-neue-bold';
     color: #fff;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .4s; }
     .language_box span:not(:last-child) {
       margin-right: 10px; }
     .language_box span.active {
@@ -805,9 +806,9 @@ html, body {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(80px);
-    -ms-transform: translateY(80px);
-    transform: translateY(80px); }
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px); }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -817,13 +818,28 @@ html, body {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn; }
 
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); } }
+.fadeInUp2 {
+  -webkit-animation-name: fadeIn2;
+  animation-name: fadeIn2; }
+
 /*// left*/
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-80px);
-    -ms-transform: translateX(-80px);
-    transform: translateX(-80px); }
+    -webkit-transform: translateX(-110px);
+    -ms-transform: translateX(-110px);
+    transform: translateX(-110px); }
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -837,9 +853,9 @@ html, body {
 @keyframes fadeInRight {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(80px);
-    -ms-transform: translateX(80px);
-    transform: translateX(80px); }
+    -webkit-transform: translateX(110px);
+    -ms-transform: translateX(110px);
+    transform: translateX(110px); }
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -1035,7 +1051,8 @@ audio {
         margin: 30px 0; }
         .main_fluid .bio_info_col .bio_container .chilhood h3 {
           font-family: 'Conv_bebas-neue-bold';
-          color: #ebc076; }
+          color: #ebc076;
+          user-select: none; }
         .main_fluid .bio_info_col .bio_container .chilhood p, .main_fluid .bio_info_col .bio_container .chilhood span {
           font-size: 14px;
           color: #fff;
@@ -1057,7 +1074,10 @@ audio {
           font-family: 'Conv_bpg_nino_medium_caps' !important;
           color: #fff;
           opacity: .8;
-          user-select: none; }
+          user-select: none;
+          word-break: break-all;
+          padding-right: 10px;
+          text-align: justify; }
       .main_fluid .bio_info_col .bio_container a {
         font-size: 20px;
         color: #ebc076;
@@ -1545,7 +1565,9 @@ audio {
         width: 1px; }
       .review_cont .reviews_box .review_text p, .review_cont .reviews_box .review_text span {
         color: #fff;
-        font-size: 15px;
+        font-size: 14px;
+        opacity: .9;
+        text-align: justify;
         -webkit-transition: .3s;
         -o-transition: .3s;
         transition: .3s;
@@ -1852,7 +1874,8 @@ audio {
   .language_box_n span {
     font-family: 'Conv_bebas-neue-bold';
     color: #fff;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: .4s; }
     .language_box_n span.active {
       color: #ebc076; }
 

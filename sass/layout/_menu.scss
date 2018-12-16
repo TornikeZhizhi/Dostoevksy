@@ -283,6 +283,7 @@ audio {
                                     
                                     font-family: 'Conv_bebas-neue-bold';
                                         color: #ebc076;
+                                        user-select:none;
                                 }
 
                                     p,span {
@@ -321,6 +322,9 @@ audio {
                                         color: #fff;
                                             opacity: .8;
                                             user-select:none;
+                                            word-break: break-all;
+                                            padding-right: 10px;
+                                            text-align: justify;
 
                                 }
                         }   
@@ -1059,7 +1063,9 @@ audio {
                  p,span {
 
                 color: #fff;
-                font-size: 15px;
+                font-size: 14px;
+                opacity: .9;
+                text-align: justify;
                 -webkit-transition:.3s;
                 -o-transition:.3s;
                 transition:.3s;
@@ -1528,6 +1534,7 @@ audio {
             font-family: 'Conv_bebas-neue-bold';
             color: #fff;
             cursor: pointer;
+            transition: .4s;
 
             &.active {
                 color: #ebc076;
