@@ -587,7 +587,7 @@ audio {
                 }
 
                 .main_tittle {
-                        padding: 0px 30px;
+                       
                     h1 {
 
                         &:after {
@@ -1373,8 +1373,8 @@ audio {
 .hamburger_menu {
     font-size: 40px;
     cursor: pointer;
-    width: 40px;
-    height: 26px;
+    width: 35px;
+    height: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1423,8 +1423,8 @@ audio {
 
 
 .hamburger_menu div {
-    width: 40px;
-    height: 4px;
+    width: 36px;
+    height: 3px;
     background-color: #ebc076;
         border-radius: 15px
 }
@@ -1453,11 +1453,11 @@ audio {
 
             &:hover {
 
-                -webkit-transform:scale(1.2);
+                -webkit-transform:scale(1.08);
 
-                    -ms-transform:scale(1.2);
+                    -ms-transform:scale(1.08);
 
-                        transform:scale(1.2);
+                        transform:scale(1.08);
                 opacity: .8;
             }
 
@@ -1518,7 +1518,27 @@ audio {
 
 
 
+.language_box_n {
+   display: none;
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   z-index: 1;
+    span {
+            font-family: 'Conv_bebas-neue-bold';
+            color: #fff;
+            cursor: pointer;
 
+            &.active {
+                color: #ebc076;
+            }
+
+
+    }
+}
+.language_box_n span:not(:last-child) {
+    margin-right: 10px;
+}
 
 .overlay {
     height: 0%;
@@ -1536,7 +1556,7 @@ audio {
 
 .overlay-content {
     position: relative;
-    top: 50%;
+    top: 270px;
     width: 100%;
     text-align: center;
         -webkit-transform: translateY(-50%);
@@ -1558,7 +1578,7 @@ audio {
 
                 li {
 
-                        width: 215px;
+                        width: 235px;
                     a {
                         i {
                             display: inline-block;
@@ -1700,9 +1720,7 @@ audio {
     background: #806230; 
     border-radius: 10px;
 }
-.language_box_n {
-    display: none;
-}
+
 
 @media screen and (max-width: 1366px) {
 
@@ -1731,6 +1749,49 @@ audio {
 
 @media screen and (max-width: 992px) {
 
+    .only_books {
+        padding-top:50px;
+        background-size:unset !important;
+        background-repeat:unset !important;
+    }
+
+    .events_main_content {
+
+    padding: 30px 0px 50px;
+ 
+}
+.main_fluid .menu_col {
+ 
+    padding: 0px 0 0px;
+}
+
+    .events_nd_info .event_nd_text p, .events_nd_info .event_nd_text span {
+        font-size: 13px;
+    }
+
+    .events_nd_main_wrapper {
+           margin: 15% 0 0 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.events_nd_main_wrapper .event_img img {
+    width: 150px;
+    height: 200px;
+  
+}
+.events_nd_info h3 {
+  
+    font-size: 28px;
+    text-align: center;
+    
+}
+
+.event_tittle h2 {
+ 
+    font-size: 30px;
+    
+}
     .fact_nd_tittle h2 {
     font-size: 18px;
     letter-spacing: -1px;
@@ -2090,14 +2151,11 @@ audio {
 
 .main_fluid .main_right_col {
     background-position: center;
-    
-   
-    
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .book_scroll , .book_scroll2 {
@@ -2208,8 +2266,8 @@ audio {
 }
 .overlay .closebtn {
     position: absolute;
-    top: 6px;
-    right: 31px;
+    top: -15px;
+    right: 28px;
     font-size: 60px;
 }
 .overlay a {
@@ -2295,7 +2353,7 @@ audio {
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 19px;
     color: #fff;
     display: inline-block;
     -webkit-transition: 0.3s;

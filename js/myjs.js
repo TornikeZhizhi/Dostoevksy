@@ -20,8 +20,6 @@ function scrollHeader() {
 
 
 //
-
-
             $(document).ready(function() {
               var owl = $('.owl-carousel');
               owl.owlCarousel({
@@ -46,10 +44,6 @@ function scrollHeader() {
               })
             })
 
-
-
-
-
 // resp menu 
 
 
@@ -60,69 +54,6 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
-
-$(document).ready(function(){
-
-
-
-var nav_item = document.getElementsByClassName("nav-item");
-
-
-
-
-function hideNav(){
-
-for (var i = 0; i < nav_item.length; i++) {
-  nav_item[i].addEventListener("click",function(){
-    document.getElementById("myNav").style.height = "0%";
-  })
-}
-}
-hideNav()
-
-
-
-// mousemove
-
-function mousemove(){
-
-
-window.addEventListener("mousemove",function(event){
-var x = (event.clientX / window.innerWidth *100)/45;
-var y = (event.clientY / window.innerWidth *100)/55;
-
-document.getElementById("footer_pegion").style.top = 2+ y + "%";
-document.getElementById("footer_pegion").style.right = 5+x + "%";
-document.getElementById("footer_pegion").style.top = 7+ x + "%";
-document.getElementById("footer_pegion").style.left = 15+y + "%";
-})
-
-}
-
-mousemove()
-
-  
-})
-
-
-
-
-
-// function mousemove3(){
-
-
-// window.addEventListener("mousemove",function(event){
-// var x = (event.clientX / window.innerWidth *100)/25;
-// var y = (event.clientY / window.innerWidth *100)/10;
-
-// document.getElementById("bio_move").style.top = 5+ x + "%";
-// document.getElementById("bio_move").style.left = 2+y + "%";
-
-// })
-
-// }
-
-// mousemove3()
 
 
 
@@ -136,6 +67,7 @@ mousemove()
         $('#back2Top').fadeOut();
     }
 });
+
 $(document).ready(function() {
     $("#back2Top").click(function(event) {
         event.preventDefault();
