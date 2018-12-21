@@ -1171,3 +1171,34 @@ text-align: center;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+.pagination {
+      justify-content: center;
+      display: flex;
+    ul {
+      display: flex;
+      margin-bottom: 0px;
+
+       li {
+             transition:all .4s;
+             &:hover{
+              transform:translateY(-8px);
+             }
+
+           a {
+
+              background-color: #7d3920;
+              padding: 5px 10px;
+               font-size: 25px;
+              color: #fff;
+             font-family: 'Conv_bebas-neue-bold';
+
+           }
+
+           &:not(:last-child){
+            margin-right: 5px;
+           }
+       }
+    }
+}
+
