@@ -3,15 +3,6 @@
 */
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-::before,
-::after {
-	/* content: ""; */
-}
 
 html,
 body {
@@ -37,10 +28,6 @@ ul {
 }
 
 
-a {
-	color: #2c3e50;
-	text-decoration: none;
-}
 
 .btn {
 	display: inline-block;
@@ -80,28 +67,6 @@ a {
 	/* padding: 0 0 0 60px; */
 	vertical-align: top;
 }
-
-/* ///////////////////////////////////////////////////
-
-HARDCOVER
-Table of Contents
-
-1. container
-2. background & color
-3. opening cover, back cover and pages
-4. position, transform y transition
-5. events
-6. Bonus
-	- Cover design
-	- Ribbon
-	- Figcaption
-7. mini-reset
-
-/////////////////////////////////////////////////////*/
-
-/*
-	1. container
-*/
 
 .book {
 	position: relative;
