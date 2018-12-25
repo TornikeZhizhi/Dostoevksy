@@ -67,6 +67,12 @@ html, body {
   src: local("☺"), url("fonts/bpg_nino_mtavruli_normal.woff") format("woff"), url("../fonts/bpg_nino_mtavruli_normal.ttf") format("truetype"), url("../fonts/bpg_nino_mtavruli_normal.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Conv_bpg_nino_mtavruli_book';
+  src: url("../fonts/bpg_nino_mtavruli_book.eot");
+  src: local("☺"), url("../fonts/bpg_nino_mtavruli_book.woff") format("woff"), url("../fonts/bpg_nino_mtavruli_book.ttf") format("truetype"), url("../fonts/bpg_nino_mtavruli_book.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 .book_nd_fluid {
   background-image: url("../images/background_book.jpg");
   width: 100%;
