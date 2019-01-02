@@ -79,7 +79,7 @@ html, body {
   padding: 100px 0; }
 
 .events_fluid {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/test/photo-1524098837898-6b1c101a85f6.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/photo-1524098837898-6b1c101a85f6.jpg);
   width: 100%;
   padding: 100px 0;
   background-position: top; }
@@ -465,13 +465,13 @@ html, body {
   padding: 100px 0;
   background-position: top;
   background-color: #573d26;
-  background-image: linear-gradient(rgba(10, 10, 10, 0.4), rgba(6, 6, 6, 0.4)), url(../images/test/photo-1524098837898-6b1c101a85f6.jpg); }
+  background-image: linear-gradient(rgba(10, 10, 10, 0.4), rgba(6, 6, 6, 0.4)), url(../images/photo-1524098837898-6b1c101a85f6.jpg); }
 
 .reviews_nd_nd_fluid {
   position: relative;
   width: 100%;
   padding: 100px 0;
-  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.45), rgba(87, 61, 38, 0.45)), url("../images/test/photo-1524098837898-6b1c101a85f6.jpg");
+  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.45), rgba(87, 61, 38, 0.45)), url("../images/photo-1524098837898-6b1c101a85f6.jpg");
   background-position: center;
   background-size: 100%; }
 
@@ -557,7 +557,7 @@ html, body {
 
 /*// charackters*/
 .characters_fluid {
-  background: linear-gradient(to right, rgba(87, 61, 38, 0.9), rgba(87, 61, 38, 0.9)), url(../images/test/aerial-belief-bible-1437872.jpg);
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.9), rgba(87, 61, 38, 0.9)), url(../images/aerial-belief-bible-1437872.jpg);
   overflow: hidden;
   background-position: center;
   background-size: cover; }
@@ -589,7 +589,7 @@ html, body {
 .characters_nd_fluid {
   width: 100%;
   padding: 100px 0;
-  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.75), rgba(87, 61, 38, 0.75)), url(../images/test/background-blank-canvas-877700.jpg);
+  background-image: linear-gradient(to right, rgba(87, 61, 38, 0.75), rgba(87, 61, 38, 0.75)), url(../images/background-blank-canvas-877700.jpg);
   background-position: center;
   background-size: 100%; }
   .characters_nd_fluid .characters_nd_main_content {
@@ -1569,7 +1569,7 @@ audio {
   z-index: -1; }
 
 .header_fluid {
-  background-image: linear-gradient(to right bottom, rgba(87, 61, 38, 0.7), rgba(87, 61, 38, 0.7)), url("../images/test/photo-1524098837898-6b1c101a85f6.jpg");
+  background-image: linear-gradient(to right bottom, rgba(87, 61, 38, 0.7), rgba(87, 61, 38, 0.7)), url("../images/photo-1524098837898-6b1c101a85f6.jpg");
   position: fixed;
   top: 0;
   left: 0;
@@ -1713,8 +1713,6 @@ audio {
           -o-transition: .4s;
           transition: .4s;
           cursor: pointer; }
-          .main_fluid .bio_coll .bio_img_col .bio_img img:hover {
-            clip-path: polygon(0 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 100% 25%, 100% 43%, 65% 43%, 65% 100%, 35% 100%, 35% 43%, 0 43%); }
   .main_fluid .bio_info_col {
     padding: 70px 0;
     display: -webkit-box;
@@ -2269,7 +2267,7 @@ audio {
   background-size: cover; }
 
 .char_fluid {
-  background: linear-gradient(to right, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/test/photo-1474932430478-367dbb6832c1.jpg);
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/photo-1474932430478-367dbb6832c1.jpg);
   overflow: hidden;
   /* background-size: cover; */
   background-size: contain;
@@ -2310,7 +2308,7 @@ audio {
   100% {
     opacity: 1; } }
 .contact_fluid {
-  background: linear-gradient(to right bottom, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url(../images/test/pexels-photo-602579.jpeg);
+  background: linear-gradient(to right bottom, rgba(87, 61, 38, 0.8), rgba(87, 61, 38, 0.8)), url("../images/pexels-photo-602579.jpeg");
   padding: 50px 0;
   background-size: 100%;
   position: relative; }
@@ -2520,7 +2518,7 @@ audio {
       width: 100%; }
 
 .only_books {
-  background: linear-gradient(to right, rgba(87, 61, 38, 0.85), rgba(87, 61, 38, 0.85)), url("../images/test/photo-1473755504818-b72b6dfdc226.jpg") !important;
+  background: linear-gradient(to right, rgba(87, 61, 38, 0.85), rgba(87, 61, 38, 0.85)), url("../images/photo-1473755504818-b72b6dfdc226.jpg") !important;
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: center; }
